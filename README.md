@@ -12,6 +12,19 @@ about you or your enrollment in the course. If you do not wish to use GitHub,
 please email Griffin `gchure@caltech.edu` to set up an alternative scheme to
 access and deposit data. 
 
+## Using The Repository
+Being able to use Git and GitHub is vital to keep track of the data. There are 
+many tutorials showing how to use both of these efficiently. If you are not
+familiar with Git and GitHub, please review the following tutorials:
+
+* [Version Control with
+  Git](http://justinbois.github.io/bootcamp/2019/lessons/l12_version_control_with_git.html)
+  by [Justin Bois](http://bois.caltech.edu) at Caltech.
+* [Tips and Traps with Git and GitHub](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/recitations/recitation_02/index.html) by Muir Morrison at Caltech.
+
+Note that in using this repository, it is imperative that you give coherent and
+meaningful commit messages. 
+
 ## Repository Structure
 The bare bones of the repository is already in place. Within each folder, you
 will find a `README.md` file explaining the purpose of the folder and other
