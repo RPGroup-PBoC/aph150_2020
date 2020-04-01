@@ -37,7 +37,6 @@ things could be changed to improve it, please [open an
 issue](https://github.com/rpgroup-pboc/aph150_2020/issues) on this
 repository.
 
-## Repository structure
 This repository houses all *raw* data sets collected from the internet. This
 repository is broken down into four separate subdirectories. Of course, some
 data sets will fall into multiple categories. When adding your data to the
