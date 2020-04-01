@@ -26,6 +26,10 @@ Note that in using this repository, it is imperative that you give coherent and
 meaningful commit messages. 
 
 ## Repository Structure
+
+> :warning: An example data file has been added to `flora_fauna/` if you want to
+> learn by example how to manage this repository.
+
 The bare bones of the repository is already in place. Within each folder, you
 will find a `README.md` file explaining the purpose of the folder and other
 information that will help you manage the repository. The structure of this
