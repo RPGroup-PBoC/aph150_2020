@@ -1,0 +1,8 @@
+﻿Reservoir A,Reservoir B,"A to B, pre-Industrial (PgC/yr)","A to B, anthropogenic (PgC/yr)","A to B, total (PgC/yr)","B to A, pre-Industrial (PgC/yr)","B to A, anthropogenic (PgC/yr)","B to A, total (PgC/yr)"
+Surface ocean,Atmosphere,60.7,17.7,78.4,60,20,80
+Surface ocean,Marine biota,,,50,,,37
+Surface ocean,Intermediate and deep sea,,,90,,,101
+Marine biota,Intermediate and deep sea,,,11,,,
+Marine biota,Dissolved organic carbon,,,2,,,
+Dissolved organic carbon,Intermediate and deep sea,,,2,,,
+Intermediate and deep sea,Ocean floor surface sediments,,,0.2,,,
