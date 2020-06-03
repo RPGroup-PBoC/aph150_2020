@@ -1,0 +1,810 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     31365,        802]
+NotebookOptionsPosition[     27496,        733]
+NotebookOutlinePosition[     27943,        751]
+CellTagsIndexPosition[     27900,        748]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Appendix: estimating the residence time of \
+anthropogenic carbon dioxide in the ocean", "Section"]], "Subtitle",
+ CellChangeTimes->{{3.800136052412922*^9, 3.8001361213636427`*^9}, {
+  3.8001361549708853`*^9, 
+  3.800136159337521*^9}},ExpressionUUID->"bd8aeb80-f25e-4f77-844c-\
+8c04f2da8aa3"],
+
+Cell[TextData[{
+ "In the main text, we find the IPCC AR5 report that ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0ce21de7-c7d1-4188-b08f-d165b8a4f7e4"],
+ " stays in the ocean for around 500 years due to the carbon cycle. To \
+understand how this result is obtained, we can attempt to justify this number \
+with common knowledge and basic chemistry. There are two components: the \
+total ocean reservoir of carbon (38,000 PgC) and the annual rate of carbon \
+leaving the ocean (80 PgC). Let\[CloseCurlyQuote]s start with estimating the \
+mass of carbon in the ocean."
+}], "Text",
+ CellChangeTimes->{{3.800136170127941*^9, 
+  3.8001362760054207`*^9}},ExpressionUUID->"0994bf1f-1dc6-4303-9970-\
+8a1d1a90b933"],
+
+Cell[CellGroupData[{
+
+Cell["Estimating the ocean reservoir of carbon", "Subsubsection",
+ CellChangeTimes->{{3.800136283674938*^9, 
+  3.80013628784479*^9}},ExpressionUUID->"e8921f28-af01-4422-a882-\
+fd102982938e"],
+
+Cell["\<\
+When opening a can of soda, enough gas escapes to create an audible sound, \
+which would probably filling the space of on the order of a hundred mL of \
+volume when it expands to accommodate the pressure of the surrounding \
+environment. Much more gas remains in the liquid, so we estimate a total of \
+one liter of gas in the soda if all extracted and allowed to expand. High \
+school chemistry says that one mole is around 22 liters at STP, so we use \
+this to get an approximate answer without needing to remember any constants.\
+\>", "Text",
+ CellChangeTimes->{{3.800136302718279*^9, 
+  3.800136404795681*^9}},ExpressionUUID->"7def8299-78d6-426e-9262-\
+e60995c871e4"],
+
+Cell["\<\
+We first find the mass of carbon per liter when dissolved to saturation at \
+atmospheric pressure. Although the soda can is at a high pressure at room \
+temperature, its pressure is similar to atmospheric pressure when cooled to \
+deep sea ocean temperatures of a few \:02daC, as seen by a cold can barely \
+popping. Thus, we ignore the fact that soda is pressurized.\
+\>", "Text",
+ CellChangeTimes->{{3.8001254571763573`*^9, 3.800125498887547*^9}, {
+  3.80013635508158*^9, 3.800136355856469*^9}, {3.800136429723125*^9, 
+  3.800136431453233*^9}},ExpressionUUID->"f5c9c87a-791f-48de-9cf7-\
+1392ae9f20bf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"canVolume", "=", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"355", ",", "\"\<Milliliters\>\""}], "]"}]}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{"per", " ", "coke", " ", "can"}], " ", "*)"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"co2Saturated", "=", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Quantity", "[", 
+       RowBox[{"1", ",", "\"\<Liters\>\""}], "]"}], "/", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"22.4", ",", 
+        RowBox[{"\"\<Liters\>\"", "/", "\"\<Moles\>\""}]}], "]"}]}], 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"12", ",", 
+       RowBox[{"\"\<Grams\>\"", "/", "\"\<Moles\>\""}]}], "]"}], "*", 
+     RowBox[{"(", 
+      RowBox[{"1", " ", 
+       RowBox[{"(*", " ", 
+        RowBox[{"coke", " ", "can"}], " ", "*)"}], "/", "canVolume"}], 
+      ")"}]}], ",", 
+    RowBox[{"\"\<Grams\>\"", "/", "\"\<Liters\>\""}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.800125351912393*^9, 3.800125455804329*^9}, {
+  3.800125503569491*^9, 3.8001255418056507`*^9}, {3.800125642658671*^9, 
+  3.800125645490898*^9}, {3.8001256903548*^9, 3.800125779112236*^9}, {
+  3.800127183118144*^9, 3.800127183174285*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"19870cea-f5e8-4d08-9e38-d7c74282a33a"],
+
+Cell[BoxData[
+ TemplateBox[{"1.5090543259557343`", 
+   RowBox[{
+    "\"g\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", "\"L\""}], 
+   "grams per liter", 
+   FractionBox["\"Grams\"", "\"Liters\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.800125425659472*^9, 3.800125542191739*^9, {3.8001257705367203`*^9, 
+   3.800125779968007*^9}, 3.8001271890375032`*^9, 3.800142208530197*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"822898cb-3c43-43b6-a45c-d3486741e3e0"]
+}, Open  ]],
+
+Cell[TextData[{
+ "So dissolved ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "50b51c26-5501-4466-8ab2-452bc24e6bcc"],
+ " at saturation has around 2 gC/L. When bottling soda, manufacturers \
+probably have a tank of pure ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "846af83a-dee2-4edd-a52c-1b2a4191a726"],
+ ". By Henry\[CloseCurlyQuote]s law, the amount of dissolved gas is \
+proportional to the partial pressure of that gas, so we can attempt to scale \
+this example down to atmospheric pressure of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ee6a4843-f07f-488e-9325-f0e13f681727"],
+ ". The Keeling number (Human Impact Number ####) indicates that the \
+concentration of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "a0de211b-36b0-4763-833c-4ac33cf1b16c"],
+ " in the atmosphere is around 400 ppm. Thus, the Keeling number and Henry\
+\[CloseCurlyQuote]s law give the mass fraction of carbon in ocean water due \
+to dissolved ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2430286e-531d-47ba-82b7-93f0fae9356a"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.8001255473370457`*^9, 3.800125562202969*^9}, {
+  3.800125597702771*^9, 3.800125660210445*^9}, {3.800125887656679*^9, 
+  3.800125896621962*^9}, {3.800136443070465*^9, 3.800136504461239*^9}, {
+  3.800139575673314*^9, 
+  3.800139584222704*^9}},ExpressionUUID->"85d9c465-131e-4f4c-9582-\
+3481a7c2e37a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"keeling", "=", 
+   RowBox[{"400", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "6"}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"co2Ocean", "=", 
+  RowBox[{"co2Saturated", " ", 
+   RowBox[{"keeling", "/", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"1000", ",", 
+      RowBox[{"\"\<Grams\>\"", "/", "\"\<Liters\>\""}]}], 
+     "]"}]}]}]}]}], "Input",
+ CellChangeTimes->{{3.800125628274744*^9, 3.8001256338281612`*^9}, {
+  3.8001257823991137`*^9, 3.800125852337224*^9}, {3.800125898770399*^9, 
+  3.800125906790411*^9}, {3.800126447571412*^9, 3.800126450197112*^9}, {
+  3.800127186630869*^9, 3.8001271882213707`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"4298a0b9-06fc-496a-bb43-6813e1968d3d"],
+
+Cell[BoxData["6.036217303822937`*^-7"], "Output",
+ CellChangeTimes->{{3.8001258035564213`*^9, 3.8001258525474987`*^9}, 
+   3.8001259077410793`*^9, 3.800126450457511*^9, 3.800127190453809*^9, 
+   3.800142208683363*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"60e430a5-e4cb-4fcb-a17d-78bf01b4c67b"]
+}, Open  ]],
+
+Cell[TextData[{
+ "This means that in 1 kg of ocean water, we have around 6 ",
+ Cell[BoxData["\[Times]"],
+  CellChangeTimes->{{3.8001258035564213`*^9, 3.8001258525474987`*^9}, 
+    3.8001259077410793`*^9, 3.800126450457511*^9, 3.800127190453809*^9},
+  ExpressionUUID->"cb3ef776-8399-42a9-bb04-2e93dd685f83"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "25743a24-d9eb-4c06-b7f8-3cefd4071766"],
+ " kg of carbon from dissolved ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "988df97f-1cc6-4f3c-b61d-73d202bf9df1"],
+ ". It turns out that out of all carbon in the ocean, very little (0.5%) is \
+directly from dissolved ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0709065e-a10b-44b0-aff5-700a50e2d831"],
+ ". When ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4c776eba-1ede-4cfc-a9b6-bf13c686179b"],
+ " interacts with water, it reacts to form carbonic acid"
+}], "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.800136830001812*^9}, {3.80013711025211*^9, 
+  3.8001371221259127`*^9}},ExpressionUUID->"5a102ed7-0905-4c72-b71c-\
+e4f2dcdf8d39"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["CO", "2"], " ", 
+    RowBox[{"(", "gas", ")"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2f5b766f-c1cf-4e31-b27c-068ed7f2264f"],
+ " + ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox[
+    StyleBox["H",
+     FontSlant->"Plain"], "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "894040a6-1919-4e98-a66b-04069656d8ef"],
+ "O \[Equilibrium] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     StyleBox["H",
+      FontSlant->"Plain"], "2"], 
+    SuperscriptBox[
+     SubscriptBox["CO", "3"], "*"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "00a3501f-49b5-4098-9cad-2fc73f40157a"],
+ " \t ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["K", "0"], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "83f94e53-51d9-4d3d-a5d4-b5f41bfdf1b7"]
+}], "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.800136831947371*^9}, {3.8001368727885237`*^9, 
+  3.80013687716215*^9}, {3.80013693357482*^9, 3.800136934453988*^9}},
+ TextAlignment->Center,ExpressionUUID->"01977f96-76e8-4372-bd3d-bbc22b539c73"],
+
+Cell["which then dissociates into bicarbonate, i.e. ", "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.800136832916065*^9}, {3.800136919713048*^9, 
+  3.800136921375224*^9}},ExpressionUUID->"18466d17-0221-4f8f-8de8-\
+b9cb67a708fc"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     StyleBox["H",
+      FontSlant->"Plain"], "2"], 
+    SuperscriptBox[
+     SubscriptBox["CO", "3"], "*"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ce9f59cc-2ad0-42f3-91a9-fdd54c21e2d0"],
+ " \[Equilibrium] ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    StyleBox["H",
+     FontSlant->"Plain"], "+"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "259f2f44-b4a9-4e96-8fda-9761a4930db2"],
+ " + ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "\[Dash]"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9c9fe959-22d7-46db-a0b3-852e92ffae94"],
+ " \t\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["K", "1"], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "6a29b838-6bab-4a8c-a89b-ee9f637c860e"]
+}], "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+   3.800136514263494*^9, 3.800136834481789*^9}, {3.800136880059208*^9, 
+   3.8001368809266787`*^9}, 3.80013695554884*^9},
+ TextAlignment->Center,ExpressionUUID->"0c3fa388-3eb3-451f-8664-6c233155079f"],
+
+Cell["\<\
+ where equilibrium constants are shown in parentheses. (This also dissociates \
+into carbonate, but that\[CloseCurlyQuote]s a higher-order reaction that we\
+\[CloseCurlyQuote]ll ignore for a rough estimate.) We can solve roughly for \
+the concentration of bicarbonate in terms of the equilibrium constants to get\
+\
+\>", "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.800136943859289*^9}, {3.8001372292971563`*^9, 
+  3.800137234015999*^9}},ExpressionUUID->"8bd41ecf-c7b5-4a80-bd18-\
+b638c4a8bff0"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"[", 
+    SuperscriptBox[
+     SubscriptBox["HCO", "3"], "-"], "]"}], " ", "=", 
+   FractionBox[
+    RowBox[{" ", 
+     RowBox[{
+      SubscriptBox["K", "0"], " ", 
+      SubscriptBox["K", "1"], " ", 
+      RowBox[{"(", 
+       RowBox[{"p", " ", 
+        SubscriptBox["CO", "2"]}], ")"}]}]}], 
+    RowBox[{"[", 
+     SuperscriptBox["H", "+"], "]"}]]}], TraditionalForm]],
+ FormatType->
+  "TraditionalForm",ExpressionUUID->"4501c66b-2fdc-4458-9b83-3fd979346808"]], \
+"Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.80013696874868*^9}},
+ TextAlignment->Center,ExpressionUUID->"65a03ee2-766f-45cd-9a30-e8d1fea1bb48"],
+
+Cell[TextData[{
+ "which tells us that the concentration of bicarbonate is proportional to the \
+partial pressure of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e3a42a34-226c-4059-8e9a-0c9902bd78ad"],
+ ". To avoid looking up equilibrium constants in our desert-island approach, \
+we appeal to everyday experience: a few teaspoons of baking soda (sodium \
+bicarbonate) can be dissolved in a cup of water. At a density of a few grams \
+per cm3 (since it easily sinks in water), this gives us a saturated \
+bicarbonate solution. From our back-of-the-envelope chemistry, we can scale \
+this by the Keeling number:"
+}], "Text",
+ CellChangeTimes->{{3.8001262602301188`*^9, 3.8001262645989113`*^9}, {
+  3.800136514263494*^9, 3.800137080919052*^9}, {3.800137154476832*^9, 
+  3.800137179327194*^9}},ExpressionUUID->"67c274a8-ae10-415a-8545-\
+dd27efa3d855"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"biSaturated", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"UnitConvert", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Quantity", "[", 
+         RowBox[{"3", ",", 
+          RowBox[{"\"\<Grams\>\"", "/", 
+           RowBox[{"\"\<Centimeters\>\"", "^", "3"}]}]}], "]"}], 
+        RowBox[{
+         RowBox[{"Quantity", "[", 
+          RowBox[{"3", ",", "\"\<Teaspoons\>\""}], "]"}], "/", 
+         RowBox[{"Quantity", "[", 
+          RowBox[{"1", ",", "\"\<Cups\>\""}], "]"}]}]}], ",", 
+       RowBox[{"\"\<Grams\>\"", "/", "\"\<Liters\>\""}]}], "]"}], "*", 
+     RowBox[{
+      RowBox[{"Quantity", "[", 
+       RowBox[{"12", ",", "\"\<u\>\""}], "]"}], "/", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"84", ",", "\"\<u\>\""}], "]"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"biOcean", "=", 
+  RowBox[{"ScientificForm", "[", 
+   RowBox[{"biSaturated", " ", 
+    RowBox[{"keeling", "/", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"1000", ",", 
+       RowBox[{"\"\<Grams\>\"", "/", "\"\<Liters\>\""}]}], "]"}]}]}], 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{{3.800126294305869*^9, 3.800126371833146*^9}, {
+  3.800126412115508*^9, 3.800126412137911*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"dd4d47b3-241c-47c4-a5db-546e3eb4185d"],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   RowBox[{"\<\"1.07143\"\>", "\[Times]", 
+    SuperscriptBox["10", "\<\"-5\"\>"]}],
+   0.000010714285714285714`,
+   AutoDelete->True],
+  ScientificForm]], "Output",
+ CellChangeTimes->{3.800126328545923*^9, 3.80012637309965*^9, 
+  3.80012641263168*^9, 3.8001271963039103`*^9, 3.800142208716063*^9},
+ CellLabel->
+  "Out[6]//ScientificForm=",ExpressionUUID->"124e15f5-e1c4-4a4f-b228-\
+f007f0023608"]
+}, Open  ]],
+
+Cell[TextData[{
+ "So in 1 kg of ocean water, we have around ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "49530765-4935-4795-8a5f-113a07407500"],
+ " kg of carbon from bicarbonate ions. This is much more than we had for \
+dissolved ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "68ac185e-291f-4792-9542-98ae26e4ca09"],
+ "! Indeed, more sophisticated ocean models find that around 89% of the \
+carbon in the ocean is from bicarbonates.\n\nTo get the total mass of carbon \
+in the ocean, we need to the total mass of the ocean. Around 70% of the \
+planet is covered in ocean water, which we can say is a few kilometers deep. \
+With Earth\[CloseCurlyQuote]s radius of 6,400 km, this gives a mass of "
+}], "Text",
+ CellChangeTimes->{{3.800127025809362*^9, 3.800127177017785*^9}, {
+  3.80013183265462*^9, 3.800131837339836*^9}, {3.800137092791026*^9, 
+  3.8001371361840076`*^9}, {3.800137195443288*^9, 3.800137271689145*^9}, {
+  3.800137323426393*^9, 
+  3.800137323760104*^9}},ExpressionUUID->"8e1a7b13-73b8-4c11-8530-\
+1fb9925a97ae"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitSimplify", "[", 
+  RowBox[{
+   RowBox[{"(", "0.7", ")"}], 
+   RowBox[{"(", 
+    RowBox[{"4", "Pi"}], ")"}], 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"3", ",", "\"\<Kilometers\>\""}], "]"}], 
+   SuperscriptBox[
+    RowBox[{"Quantity", "[", 
+     RowBox[{"6400", ",", "\"\<Kilometers\>\""}], "]"}], "2"], 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"1", ",", 
+     RowBox[{"\"\<Grams\>\"", "/", 
+      RowBox[{"\"\<Centimeters\>\"", "^", "3"}]}]}], "]"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.800137289748309*^9, 3.8001373397101994`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"4af5f7e8-75a8-4a48-98c2-f005171456d6"],
+
+Cell[BoxData[
+ TemplateBox[{"1.0809089347647186`*^24", "\"g\"", "grams", "\"Grams\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.800137339965345*^9, 3.8001422087540483`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"5dde8e6b-aa75-421b-8aa7-94cca097df85"]
+}, Open  ]],
+
+Cell[TextData[{
+ "so we can multiply by the carbon fraction ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "db34deca-a21a-47a3-a063-b0fd0056912f"],
+ " and get our mass of carbon in the oceans to be ",
+ StyleBox["10,000 PgC.",
+  FontWeight->"Bold"],
+ " This is quite close to the true answer of ",
+ StyleBox["38,000 PgC",
+  FontWeight->"Bold"],
+ " \[LongDash] not bad for a Coke and baking soda estimate!"
+}], "Text",
+ CellChangeTimes->{{3.800137357931396*^9, 
+  3.800137417400309*^9}},ExpressionUUID->"21c88609-e858-4253-be3d-\
+b3bdca27c8fe"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Estimating the exchange of carbon from ocean to atmosphere", \
+"Subsubsection",
+ CellChangeTimes->{{3.800136283674938*^9, 3.80013628784479*^9}, {
+  3.800137461691628*^9, 
+  3.800137465568461*^9}},ExpressionUUID->"c8041406-3b7d-4bea-b5a7-\
+6612dcae6aa1"],
+
+Cell[TextData[{
+ "Let\[CloseCurlyQuote]s try to estimate the emission of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "f80acf75-6ec0-46b5-a881-59377fcdbd49"],
+ " from the ocean into the atmosphere from a puddle evaporating. After it \
+rains, you\[CloseCurlyQuote]ll see a puddle with around 100 mL and 0.5 ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    StyleBox["m",
+     FontSlant->"Plain"], "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "437fa8a5-7751-4dc0-afed-94eeb4842cc9"],
+ " evaporate in about half a day (6 hours). However, this is pure water \
+evaporating into the air. For the case of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d362aede-28c7-4c21-8f39-6f9175b39460"],
+ ", the difference isn\[CloseCurlyQuote]t so drastic, since we don\
+\[CloseCurlyQuote]t have pure ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d6ca8bdb-64c5-456a-9ec1-56fb7adb78db"],
+ " evaporating into a much lower concentration. The fraction of atmosphere is \
+roughly the same for water vapor and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "c6ccde9d-8c49-460a-9f51-5ab3f8e5af12"],
+ ", but the puddle has far too much water (almost 100%); to correct it to a \
+level similar to that of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "492e5722-5311-4ff9-91fc-ae090a8c7cc8"],
+ ", we would need to scale it down by the Keeling number. Since evaporation \
+rate is proportional to the surface area, we can easily scale this example up \
+to the entire ocean to get the mass of substance that is emitted."
+}], "Text",
+ CellChangeTimes->{{3.800136302718279*^9, 3.800136404795681*^9}, {
+  3.800138873719695*^9, 3.800138890002993*^9}, {3.800138924841256*^9, 
+  3.800139047004697*^9}, {3.8001391606841*^9, 3.800139184627812*^9}, {
+  3.800139221637842*^9, 3.800139246366156*^9}, {3.800139348840404*^9, 
+  3.800139449197043*^9}, {3.80013965407799*^9, 
+  3.800139654293832*^9}},ExpressionUUID->"aa86edea-aafb-431c-9187-\
+3bed9f333474"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   RowBox[{"keeling", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"Quantity", "[", 
+        RowBox[{"100", ",", "\"\<Milliliters\>\""}], "]"}], "/", 
+       RowBox[{"Quantity", "[", 
+        RowBox[{"6", ",", "\"\<Hours\>\""}], "]"}]}], ")"}], "/", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"0.5", ",", 
+       RowBox[{"\"\<Meters\>\"", "^", "2"}]}], "]"}]}], "*", 
+    RowBox[{"UnitSimplify", "[", 
+     RowBox[{
+      RowBox[{"(", "0.7", ")"}], 
+      RowBox[{"(", 
+       RowBox[{"4", "Pi"}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"Quantity", "[", 
+        RowBox[{"6400", ",", "\"\<Kilometers\>\""}], "]"}], "2"], 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"\"\<Grams\>\"", "/", 
+         RowBox[{"\"\<Centimeters\>\"", "^", "3"}]}]}], "]"}]}], "]"}]}], ",", 
+   RowBox[{"\"\<Petagrams\>\"", "/", "\"\<Years\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.800138744482524*^9, 3.800138801948257*^9}, {
+  3.800138833196085*^9, 3.8001388604425793`*^9}, {3.800138895186*^9, 
+  3.8001389211596117`*^9}, {3.8001396560599823`*^9, 3.800139676347508*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"275330e4-f137-4952-8fed-8e2af0d86118"],
+
+Cell[BoxData[
+ TemplateBox[{"42.083387860173055`", 
+   RowBox[{
+    "\"Pg\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", "\"yr\""}], 
+   "petagrams per year", 
+   FractionBox["\"Petagrams\"", "\"Years\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.8001388438161793`*^9, 3.8001388607618237`*^9}, {
+   3.800138896114008*^9, 3.800138921684119*^9}, {3.8001396565892677`*^9, 
+   3.800139676610015*^9}, 3.800142209229018*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"153de274-7a05-4d9a-a63b-9360d550177c"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Although this is an intuitive estimate, it is a drastic oversimplification \
+of the true mechanism of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0a3d7183-e67b-401c-bad4-d0100bf0b6c4"],
+ " exchange. Geographic and temporal variations in temperature, salinity, \
+alkalinity, and obviously dissolved inorganic carbon all affect ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"p", " ", 
+    SubscriptBox["CO", "2"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4c3b53a5-1d7b-440e-b30f-8b809271f155"],
+ ", making it difficult to conclude on a consistent number. Measurements of \
+seawater show a difference of up to a few 10-5 atm from sea to air [4]. \
+Around the equator, the ocean is typically supersaturated with ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "665f53fa-adc8-4673-bdd0-6dfabf87d909"],
+ ", while closer to the poles it is undersaturated; this causes a different \
+direction of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "039eef42-43e4-4774-b8cd-4e2703a577c8"],
+ " flux between ocean and atmosphere."
+}], "Text",
+ CellChangeTimes->{{3.800139477685298*^9, 
+  3.8001395706984653`*^9}},ExpressionUUID->"453239e1-c0f3-4454-af3c-\
+aa9815b4af63"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The final estimate\[Ellipsis]", "Subsubsection",
+ CellChangeTimes->{{3.800136283674938*^9, 3.80013628784479*^9}, {
+   3.800137461691628*^9, 3.800137465568461*^9}, {3.800139467284749*^9, 
+   3.8001394732351503`*^9}, 
+   3.800139607743759*^9},ExpressionUUID->"2342fded-35c7-4e0d-96ab-\
+1f5a4420c77a"],
+
+Cell["\<\
+Putting our two numbers together, we find our order-of-magnitude estimate of \
+residence time.\
+\>", "Text",
+ CellChangeTimes->{{3.800136302718279*^9, 3.800136404795681*^9}, {
+  3.800138873719695*^9, 3.800138890002993*^9}, {3.800138924841256*^9, 
+  3.800139047004697*^9}, {3.8001391606841*^9, 3.800139184627812*^9}, {
+  3.800139221637842*^9, 3.800139246366156*^9}, {3.800139348840404*^9, 
+  3.800139449197043*^9}, {3.80013961041892*^9, 3.8001396406825542`*^9}, {
+  3.800139712192937*^9, 
+  3.800139719649021*^9}},ExpressionUUID->"52ed3234-cc17-4c42-a4e3-\
+8eca751701d7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Quantity", "[", 
+   RowBox[{
+    SuperscriptBox["10", "4"], ",", "\"\<Petagrams\>\""}], "]"}], "/", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"40", ",", 
+    RowBox[{"\"\<Petagrams\>\"", "/", "\"\<Years\>\""}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.800138744482524*^9, 3.800138801948257*^9}, {
+  3.800138833196085*^9, 3.8001388604425793`*^9}, {3.800138895186*^9, 
+  3.8001389211596117`*^9}, {3.800139666830799*^9, 3.8001397029258757`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"b0091d83-5767-463e-82f9-03d413bec825"],
+
+Cell[BoxData[
+ TemplateBox[{"250", "\"yr\"", "years", "\"Years\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.8001388438161793`*^9, 3.8001388607618237`*^9}, {
+   3.800138896114008*^9, 3.800138921684119*^9}, {3.800139696441725*^9, 
+   3.800139703216083*^9}, 3.800142209235708*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"d72e754a-3d96-4101-b0e4-2872ec430289"]
+}, Open  ]],
+
+Cell[TextData[{
+ "This is surprisingly close! Our answer of ",
+ StyleBox["250 years",
+  FontWeight->"Bold"],
+ " is not far off from the result of the IPCC carbon cycle data of ",
+ StyleBox["500 years",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.800139722109762*^9, 3.8001397268632107`*^9}, {
+  3.8001398104889*^9, 
+  3.800139855011257*^9}},ExpressionUUID->"3d1664c0-606e-4b18-be3b-\
+5c22c061b1c6"],
+
+Cell[TextData[{
+ "For how to do the calculations with more realistic carbon cycle models, we \
+recommend the following text: Sarmiento, Jorge L., and Nicolas Gruber. ",
+ StyleBox["Ocean biogeochemical dynamics",
+  FontSlant->"Italic"],
+ ". Princeton University Press, 2006."
+}], "Text",
+ CellChangeTimes->{{3.8001397447262087`*^9, 
+  3.800139806603784*^9}},ExpressionUUID->"1e826bc4-4662-4295-9850-\
+54f87b63a5f6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{916, 905},
+WindowMargins->{{Automatic, -9}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b57f715e-7efd-47fb-a4f9-ced6c0a8bd1e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 316, 5, 96, "Subtitle",ExpressionUUID->"bd8aeb80-f25e-4f77-844c-8c04f2da8aa3"],
+Cell[899, 29, 790, 16, 104, "Text",ExpressionUUID->"0994bf1f-1dc6-4303-9970-8a1d1a90b933"],
+Cell[CellGroupData[{
+Cell[1714, 49, 190, 3, 45, "Subsubsection",ExpressionUUID->"e8921f28-af01-4422-a882-fd102982938e"],
+Cell[1907, 54, 681, 11, 127, "Text",ExpressionUUID->"7def8299-78d6-426e-9262-e60995c871e4"],
+Cell[2591, 67, 613, 10, 81, "Text",ExpressionUUID->"f5c9c87a-791f-48de-9cf7-1392ae9f20bf"],
+Cell[CellGroupData[{
+Cell[3229, 81, 1287, 31, 94, "Input",ExpressionUUID->"19870cea-f5e8-4d08-9e38-d7c74282a33a"],
+Cell[4519, 114, 475, 10, 38, "Output",ExpressionUUID->"822898cb-3c43-43b6-a45c-d3486741e3e0"]
+}, Open  ]],
+Cell[5009, 127, 1758, 44, 127, "Text",ExpressionUUID->"85d9c465-131e-4f4c-9582-3481a7c2e37a"],
+Cell[CellGroupData[{
+Cell[6792, 175, 737, 17, 52, "Input",ExpressionUUID->"4298a0b9-06fc-496a-bb43-6813e1968d3d"],
+Cell[7532, 194, 295, 4, 34, "Output",ExpressionUUID->"60e430a5-e4cb-4fcb-a17d-78bf01b4c67b"]
+}, Open  ]],
+Cell[7842, 201, 1442, 37, 81, "Text",ExpressionUUID->"5a102ed7-0905-4c72-b71c-e4f2dcdf8d39"],
+Cell[9287, 240, 1246, 38, 35, "Text",ExpressionUUID->"01977f96-76e8-4372-bd3d-bbc22b539c73"],
+Cell[10536, 280, 287, 4, 35, "Text",ExpressionUUID->"18466d17-0221-4f8f-8de8-b9cb67a708fc"],
+Cell[10826, 286, 1208, 37, 35, "Text",ExpressionUUID->"0c3fa388-3eb3-451f-8664-6c233155079f"],
+Cell[12037, 325, 565, 10, 81, "Text",ExpressionUUID->"8bd41ecf-c7b5-4a80-bd18-b638c4a8bff0"],
+Cell[12605, 337, 730, 21, 44, "Text",ExpressionUUID->"65a03ee2-766f-45cd-9a30-e8d1fea1bb48"],
+Cell[13338, 360, 930, 18, 104, "Text",ExpressionUUID->"67c274a8-ae10-415a-8545-dd27efa3d855"],
+Cell[CellGroupData[{
+Cell[14293, 382, 1304, 34, 94, "Input",ExpressionUUID->"dd4d47b3-241c-47c4-a5db-546e3eb4185d"],
+Cell[15600, 418, 441, 12, 45, "Output",ExpressionUUID->"124e15f5-e1c4-4a4f-b228-f007f0023608"]
+}, Open  ]],
+Cell[16056, 433, 1213, 26, 127, "Text",ExpressionUUID->"8e1a7b13-73b8-4c11-8530-1fb9925a97ae"],
+Cell[CellGroupData[{
+Cell[17294, 463, 647, 17, 56, "Input",ExpressionUUID->"4af5f7e8-75a8-4a48-98c2-f005171456d6"],
+Cell[17944, 482, 256, 4, 40, "Output",ExpressionUUID->"5dde8e6b-aa75-421b-8aa7-94cca097df85"]
+}, Open  ]],
+Cell[18215, 489, 644, 18, 58, "Text",ExpressionUUID->"21c88609-e858-4253-be3d-b3bdca27c8fe"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18896, 512, 259, 5, 45, "Subsubsection",ExpressionUUID->"c8041406-3b7d-4bea-b5a7-6612dcae6aa1"],
+Cell[19158, 519, 2350, 54, 173, "Text",ExpressionUUID->"aa86edea-aafb-431c-9187-3bed9f333474"],
+Cell[CellGroupData[{
+Cell[21533, 577, 1246, 30, 79, "Input",ExpressionUUID->"275330e4-f137-4952-8fed-8e2af0d86118"],
+Cell[22782, 609, 512, 10, 38, "Output",ExpressionUUID->"153de274-7a05-4d9a-a63b-9360d550177c"]
+}, Open  ]],
+Cell[23309, 622, 1441, 35, 127, "Text",ExpressionUUID->"453239e1-c0f3-4454-af3c-aa9815b4af63"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24787, 662, 304, 5, 45, "Subsubsection",ExpressionUUID->"2342fded-35c7-4e0d-96ab-1f5a4420c77a"],
+Cell[25094, 669, 580, 11, 35, "Text",ExpressionUUID->"52ed3234-cc17-4c42-a4e3-8eca751701d7"],
+Cell[CellGroupData[{
+Cell[25699, 684, 555, 11, 33, "Input",ExpressionUUID->"b0091d83-5767-463e-82f9-03d413bec825"],
+Cell[26257, 697, 363, 6, 38, "Output",ExpressionUUID->"d72e754a-3d96-4101-b0e4-2872ec430289"]
+}, Open  ]],
+Cell[26635, 706, 416, 12, 35, "Text",ExpressionUUID->"3d1664c0-606e-4b18-be3b-5c22c061b1c6"],
+Cell[27054, 720, 414, 9, 58, "Text",ExpressionUUID->"1e826bc4-4662-4295-9850-54f87b63a5f6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
