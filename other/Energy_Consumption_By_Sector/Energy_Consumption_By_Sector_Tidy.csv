@@ -1,0 +1,1846 @@
+﻿Sector,Source,Year,Energy Use (quadrillion Btu)
+Residential,Liquids,2010,8.9839
+Residential,Liquids,2011,8.6268
+Residential,Liquids,2012,8.615
+Residential,Liquids,2013,8.8185
+Residential,Liquids,2014,8.7863
+Residential,Liquids,2015,8.9399
+Residential,Liquids,2016,8.7698
+Residential,Liquids,2017,9.0494
+Residential,Liquids,2018,8.8831
+Residential,Liquids,2019,8.7678
+Residential,Liquids,2020,8.651
+Residential,Liquids,2021,8.5203
+Residential,Liquids,2022,8.4534
+Residential,Liquids,2023,8.4107
+Residential,Liquids,2024,8.3842
+Residential,Liquids,2025,8.3267
+Residential,Liquids,2026,8.3208
+Residential,Liquids,2027,8.3059
+Residential,Liquids,2028,8.3051
+Residential,Liquids,2029,8.2986
+Residential,Liquids,2030,8.3058
+Residential,Liquids,2031,8.3034
+Residential,Liquids,2032,8.2911
+Residential,Liquids,2033,8.279
+Residential,Liquids,2034,8.2796
+Residential,Liquids,2035,8.2762
+Residential,Liquids,2036,8.272
+Residential,Liquids,2037,8.2661
+Residential,Liquids,2038,8.2497
+Residential,Liquids,2039,8.2623
+Residential,Liquids,2040,8.2563
+Residential,Liquids,2041,8.257
+Residential,Liquids,2042,8.2396
+Residential,Liquids,2043,8.2452
+Residential,Liquids,2044,8.2309
+Residential,Liquids,2045,8.2274
+Residential,Liquids,2046,8.2052
+Residential,Liquids,2047,8.2128
+Residential,Liquids,2048,8.21
+Residential,Liquids,2049,8.2024
+Residential,Liquids,2050,8.1974
+Residential,Natural Gas,2010,20.3511
+Residential,Natural Gas,2011,20.3008
+Residential,Natural Gas,2012,19.6396
+Residential,Natural Gas,2013,20.6791
+Residential,Natural Gas,2014,20.3006
+Residential,Natural Gas,2015,19.9221
+Residential,Natural Gas,2016,20.2256
+Residential,Natural Gas,2017,20.6112
+Residential,Natural Gas,2018,21.3124
+Residential,Natural Gas,2019,21.5178
+Residential,Natural Gas,2020,21.5054
+Residential,Natural Gas,2021,21.6016
+Residential,Natural Gas,2022,21.7092
+Residential,Natural Gas,2023,21.8477
+Residential,Natural Gas,2024,22.0073
+Residential,Natural Gas,2025,22.1467
+Residential,Natural Gas,2026,22.3604
+Residential,Natural Gas,2027,22.5204
+Residential,Natural Gas,2028,22.6916
+Residential,Natural Gas,2029,22.9082
+Residential,Natural Gas,2030,23.0959
+Residential,Natural Gas,2031,23.237
+Residential,Natural Gas,2032,23.3993
+Residential,Natural Gas,2033,23.565
+Residential,Natural Gas,2034,23.7484
+Residential,Natural Gas,2035,23.9038
+Residential,Natural Gas,2036,24.1025
+Residential,Natural Gas,2037,24.296
+Residential,Natural Gas,2038,24.505
+Residential,Natural Gas,2039,24.6532
+Residential,Natural Gas,2040,24.8701
+Residential,Natural Gas,2041,25.0548
+Residential,Natural Gas,2042,25.2437
+Residential,Natural Gas,2043,25.4481
+Residential,Natural Gas,2044,25.6431
+Residential,Natural Gas,2045,25.8149
+Residential,Natural Gas,2046,26.0029
+Residential,Natural Gas,2047,26.1772
+Residential,Natural Gas,2048,26.3683
+Residential,Natural Gas,2049,26.5076
+Residential,Natural Gas,2050,26.7174
+Residential,Coal,2010,4.3716
+Residential,Coal,2011,4.4247
+Residential,Coal,2012,4.6623
+Residential,Coal,2013,4.4728
+Residential,Coal,2014,4.3936
+Residential,Coal,2015,4.3364
+Residential,Coal,2016,4.1996
+Residential,Coal,2017,3.9074
+Residential,Coal,2018,3.8407
+Residential,Coal,2019,3.7776
+Residential,Coal,2020,3.7234
+Residential,Coal,2021,3.6634
+Residential,Coal,2022,3.6192
+Residential,Coal,2023,3.5794
+Residential,Coal,2024,3.5399
+Residential,Coal,2025,3.5048
+Residential,Coal,2026,3.4706
+Residential,Coal,2027,3.4395
+Residential,Coal,2028,3.4019
+Residential,Coal,2029,3.3661
+Residential,Coal,2030,3.332
+Residential,Coal,2031,3.3004
+Residential,Coal,2032,3.268
+Residential,Coal,2033,3.238
+Residential,Coal,2034,3.2083
+Residential,Coal,2035,3.1817
+Residential,Coal,2036,3.1566
+Residential,Coal,2037,3.1295
+Residential,Coal,2038,3.1026
+Residential,Coal,2039,3.0795
+Residential,Coal,2040,3.0539
+Residential,Coal,2041,3.0334
+Residential,Coal,2042,3.0115
+Residential,Coal,2043,2.9946
+Residential,Coal,2044,2.9786
+Residential,Coal,2045,2.9649
+Residential,Coal,2046,2.9438
+Residential,Coal,2047,2.9243
+Residential,Coal,2048,2.9065
+Residential,Coal,2049,2.8885
+Residential,Coal,2050,2.8727
+Residential,Electricity,2010,17.8249
+Residential,Electricity,2011,18.0215
+Residential,Electricity,2012,18.4112
+Residential,Electricity,2013,19.1342
+Residential,Electricity,2014,19.5067
+Residential,Electricity,2015,20.2682
+Residential,Electricity,2016,21.048
+Residential,Electricity,2017,22.1173
+Residential,Electricity,2018,23.0272
+Residential,Electricity,2019,23.5229
+Residential,Electricity,2020,24.0874
+Residential,Electricity,2021,24.6547
+Residential,Electricity,2022,25.2433
+Residential,Electricity,2023,25.8634
+Residential,Electricity,2024,26.5254
+Residential,Electricity,2025,27.2186
+Residential,Electricity,2026,28.0113
+Residential,Electricity,2027,28.8383
+Residential,Electricity,2028,29.6902
+Residential,Electricity,2029,30.5851
+Residential,Electricity,2030,31.5096
+Residential,Electricity,2031,32.3296
+Residential,Electricity,2032,33.1727
+Residential,Electricity,2033,34.0346
+Residential,Electricity,2034,34.9304
+Residential,Electricity,2035,35.8563
+Residential,Electricity,2036,36.695
+Residential,Electricity,2037,37.5488
+Residential,Electricity,2038,38.4026
+Residential,Electricity,2039,39.2792
+Residential,Electricity,2040,40.174
+Residential,Electricity,2041,41.2336
+Residential,Electricity,2042,42.3286
+Residential,Electricity,2043,43.4535
+Residential,Electricity,2044,44.6227
+Residential,Electricity,2045,45.8093
+Residential,Electricity,2046,46.7697
+Residential,Electricity,2047,47.7294
+Residential,Electricity,2048,48.6893
+Residential,Electricity,2049,49.6382
+Residential,Electricity,2050,50.6397
+Residential,Renewables,2010,0.9966
+Residential,Renewables,2011,1.0805
+Residential,Renewables,2012,1.0442
+Residential,Renewables,2013,1.3922
+Residential,Renewables,2014,1.4514
+Residential,Renewables,2015,1.3773
+Residential,Renewables,2016,1.7405
+Residential,Renewables,2017,1.7387
+Residential,Renewables,2018,1.8213
+Residential,Renewables,2019,1.843
+Residential,Renewables,2020,1.8409
+Residential,Renewables,2021,1.8475
+Residential,Renewables,2022,1.8531
+Residential,Renewables,2023,1.8599
+Residential,Renewables,2024,1.8695
+Residential,Renewables,2025,1.8799
+Residential,Renewables,2026,1.8903
+Residential,Renewables,2027,1.9019
+Residential,Renewables,2028,1.912
+Residential,Renewables,2029,1.9223
+Residential,Renewables,2030,1.9313
+Residential,Renewables,2031,1.9402
+Residential,Renewables,2032,1.9491
+Residential,Renewables,2033,1.9586
+Residential,Renewables,2034,1.9673
+Residential,Renewables,2035,1.976
+Residential,Renewables,2036,1.9856
+Residential,Renewables,2037,1.9943
+Residential,Renewables,2038,2.0032
+Residential,Renewables,2039,2.0125
+Residential,Renewables,2040,2.0221
+Residential,Renewables,2041,2.0317
+Residential,Renewables,2042,2.0419
+Residential,Renewables,2043,2.0519
+Residential,Renewables,2044,2.0618
+Residential,Renewables,2045,2.0719
+Residential,Renewables,2046,2.0822
+Residential,Renewables,2047,2.0926
+Residential,Renewables,2048,2.1033
+Residential,Renewables,2049,2.1138
+Residential,Renewables,2050,2.1245
+Residential,Total Residential Delivered Energy,2010,52.528
+Residential,Total Residential Delivered Energy,2011,52.4543
+Residential,Total Residential Delivered Energy,2012,52.3724
+Residential,Total Residential Delivered Energy,2013,54.4968
+Residential,Total Residential Delivered Energy,2014,54.4386
+Residential,Total Residential Delivered Energy,2015,54.8439
+Residential,Total Residential Delivered Energy,2016,55.9835
+Residential,Total Residential Delivered Energy,2017,57.4241
+Residential,Total Residential Delivered Energy,2018,58.8846
+Residential,Total Residential Delivered Energy,2019,59.4291
+Residential,Total Residential Delivered Energy,2020,59.8081
+Residential,Total Residential Delivered Energy,2021,60.2875
+Residential,Total Residential Delivered Energy,2022,60.8782
+Residential,Total Residential Delivered Energy,2023,61.5611
+Residential,Total Residential Delivered Energy,2024,62.3263
+Residential,Total Residential Delivered Energy,2025,63.0766
+Residential,Total Residential Delivered Energy,2026,64.0535
+Residential,Total Residential Delivered Energy,2027,65.006
+Residential,Total Residential Delivered Energy,2028,66.0008
+Residential,Total Residential Delivered Energy,2029,67.0802
+Residential,Total Residential Delivered Energy,2030,68.1745
+Residential,Total Residential Delivered Energy,2031,69.1105
+Residential,Total Residential Delivered Energy,2032,70.0802
+Residential,Total Residential Delivered Energy,2033,71.0751
+Residential,Total Residential Delivered Energy,2034,72.134
+Residential,Total Residential Delivered Energy,2035,73.194
+Residential,Total Residential Delivered Energy,2036,74.2117
+Residential,Total Residential Delivered Energy,2037,75.2348
+Residential,Total Residential Delivered Energy,2038,76.263
+Residential,Total Residential Delivered Energy,2039,77.2866
+Residential,Total Residential Delivered Energy,2040,78.3765
+Residential,Total Residential Delivered Energy,2041,79.6105
+Residential,Total Residential Delivered Energy,2042,80.8654
+Residential,Total Residential Delivered Energy,2043,82.1933
+Residential,Total Residential Delivered Energy,2044,83.5371
+Residential,Total Residential Delivered Energy,2045,84.8884
+Residential,Total Residential Delivered Energy,2046,86.0038
+Residential,Total Residential Delivered Energy,2047,87.1362
+Residential,Total Residential Delivered Energy,2048,88.2773
+Residential,Total Residential Delivered Energy,2049,89.3505
+Residential,Total Residential Delivered Energy,2050,90.5516
+Commercial,Liquids,2010,3.7769
+Commercial,Liquids,2011,3.7035
+Commercial,Liquids,2012,3.598
+Commercial,Liquids,2013,3.6885
+Commercial,Liquids,2014,3.5238
+Commercial,Liquids,2015,3.8887
+Commercial,Liquids,2016,3.8668
+Commercial,Liquids,2017,3.9743
+Commercial,Liquids,2018,3.9369
+Commercial,Liquids,2019,3.9504
+Commercial,Liquids,2020,3.9249
+Commercial,Liquids,2021,3.8688
+Commercial,Liquids,2022,3.8483
+Commercial,Liquids,2023,3.8452
+Commercial,Liquids,2024,3.8515
+Commercial,Liquids,2025,3.8461
+Commercial,Liquids,2026,3.8588
+Commercial,Liquids,2027,3.8645
+Commercial,Liquids,2028,3.8863
+Commercial,Liquids,2029,3.9007
+Commercial,Liquids,2030,3.9303
+Commercial,Liquids,2031,3.9504
+Commercial,Liquids,2032,3.9675
+Commercial,Liquids,2033,3.9775
+Commercial,Liquids,2034,4.0003
+Commercial,Liquids,2035,4.0197
+Commercial,Liquids,2036,4.0398
+Commercial,Liquids,2037,4.057
+Commercial,Liquids,2038,4.0683
+Commercial,Liquids,2039,4.0979
+Commercial,Liquids,2040,4.1174
+Commercial,Liquids,2041,4.1416
+Commercial,Liquids,2042,4.1547
+Commercial,Liquids,2043,4.1872
+Commercial,Liquids,2044,4.2016
+Commercial,Liquids,2045,4.2268
+Commercial,Liquids,2046,4.2367
+Commercial,Liquids,2047,4.2672
+Commercial,Liquids,2048,4.2931
+Commercial,Liquids,2049,4.3118
+Commercial,Liquids,2050,4.336
+Commercial,Natural Gas,2010,8.4604
+Commercial,Natural Gas,2011,8.4046
+Commercial,Natural Gas,2012,8.2609
+Commercial,Natural Gas,2013,8.915
+Commercial,Natural Gas,2014,8.9163
+Commercial,Natural Gas,2015,8.7477
+Commercial,Natural Gas,2016,8.787
+Commercial,Natural Gas,2017,8.9544
+Commercial,Natural Gas,2018,9.1591
+Commercial,Natural Gas,2019,9.2576
+Commercial,Natural Gas,2020,9.2566
+Commercial,Natural Gas,2021,9.2791
+Commercial,Natural Gas,2022,9.302
+Commercial,Natural Gas,2023,9.3274
+Commercial,Natural Gas,2024,9.3561
+Commercial,Natural Gas,2025,9.3835
+Commercial,Natural Gas,2026,9.4429
+Commercial,Natural Gas,2027,9.4992
+Commercial,Natural Gas,2028,9.5613
+Commercial,Natural Gas,2029,9.6311
+Commercial,Natural Gas,2030,9.6932
+Commercial,Natural Gas,2031,9.7494
+Commercial,Natural Gas,2032,9.8097
+Commercial,Natural Gas,2033,9.8752
+Commercial,Natural Gas,2034,9.9429
+Commercial,Natural Gas,2035,10.0103
+Commercial,Natural Gas,2036,10.0847
+Commercial,Natural Gas,2037,10.1529
+Commercial,Natural Gas,2038,10.2321
+Commercial,Natural Gas,2039,10.2956
+Commercial,Natural Gas,2040,10.3785
+Commercial,Natural Gas,2041,10.4535
+Commercial,Natural Gas,2042,10.5274
+Commercial,Natural Gas,2043,10.6082
+Commercial,Natural Gas,2044,10.686
+Commercial,Natural Gas,2045,10.7577
+Commercial,Natural Gas,2046,10.8365
+Commercial,Natural Gas,2047,10.9109
+Commercial,Natural Gas,2048,10.9924
+Commercial,Natural Gas,2049,11.0546
+Commercial,Natural Gas,2050,11.139
+Commercial,Coal,2010,1.617
+Commercial,Coal,2011,1.6919
+Commercial,Coal,2012,1.8207
+Commercial,Coal,2013,1.8137
+Commercial,Coal,2014,1.7221
+Commercial,Coal,2015,1.7479
+Commercial,Coal,2016,1.6858
+Commercial,Coal,2017,1.6314
+Commercial,Coal,2018,1.6039
+Commercial,Coal,2019,1.5868
+Commercial,Coal,2020,1.5762
+Commercial,Coal,2021,1.567
+Commercial,Coal,2022,1.5604
+Commercial,Coal,2023,1.5557
+Commercial,Coal,2024,1.5512
+Commercial,Coal,2025,1.5484
+Commercial,Coal,2026,1.547
+Commercial,Coal,2027,1.5469
+Commercial,Coal,2028,1.5447
+Commercial,Coal,2029,1.5431
+Commercial,Coal,2030,1.5419
+Commercial,Coal,2031,1.5431
+Commercial,Coal,2032,1.5446
+Commercial,Coal,2033,1.5468
+Commercial,Coal,2034,1.5496
+Commercial,Coal,2035,1.5532
+Commercial,Coal,2036,1.5564
+Commercial,Coal,2037,1.5589
+Commercial,Coal,2038,1.5616
+Commercial,Coal,2039,1.5654
+Commercial,Coal,2040,1.5692
+Commercial,Coal,2041,1.5735
+Commercial,Coal,2042,1.5778
+Commercial,Coal,2043,1.5831
+Commercial,Coal,2044,1.5889
+Commercial,Coal,2045,1.5954
+Commercial,Coal,2046,1.6014
+Commercial,Coal,2047,1.6079
+Commercial,Coal,2048,1.6151
+Commercial,Coal,2049,1.6227
+Commercial,Coal,2050,1.6307
+Commercial,Electricity,2010,14.775
+Commercial,Electricity,2011,14.9744
+Commercial,Electricity,2012,15.244
+Commercial,Electricity,2013,15.6383
+Commercial,Electricity,2014,15.8661
+Commercial,Electricity,2015,16.4975
+Commercial,Electricity,2016,16.8337
+Commercial,Electricity,2017,17.1588
+Commercial,Electricity,2018,17.6173
+Commercial,Electricity,2019,17.8588
+Commercial,Electricity,2020,18.2426
+Commercial,Electricity,2021,18.6256
+Commercial,Electricity,2022,19.0078
+Commercial,Electricity,2023,19.3721
+Commercial,Electricity,2024,19.7441
+Commercial,Electricity,2025,20.1285
+Commercial,Electricity,2026,20.5355
+Commercial,Electricity,2027,20.953
+Commercial,Electricity,2028,21.3836
+Commercial,Electricity,2029,21.8279
+Commercial,Electricity,2030,22.2652
+Commercial,Electricity,2031,22.6734
+Commercial,Electricity,2032,23.067
+Commercial,Electricity,2033,23.472
+Commercial,Electricity,2034,23.8873
+Commercial,Electricity,2035,24.3116
+Commercial,Electricity,2036,24.7303
+Commercial,Electricity,2037,25.1467
+Commercial,Electricity,2038,25.5649
+Commercial,Electricity,2039,25.9912
+Commercial,Electricity,2040,26.4214
+Commercial,Electricity,2041,26.8741
+Commercial,Electricity,2042,27.3425
+Commercial,Electricity,2043,27.8194
+Commercial,Electricity,2044,28.306
+Commercial,Electricity,2045,28.8054
+Commercial,Electricity,2046,29.2835
+Commercial,Electricity,2047,29.769
+Commercial,Electricity,2048,30.2571
+Commercial,Electricity,2049,30.7533
+Commercial,Electricity,2050,31.2654
+Commercial,Renewables,2010,0.1548
+Commercial,Renewables,2011,0.1708
+Commercial,Renewables,2012,0.1737
+Commercial,Renewables,2013,0.2089
+Commercial,Renewables,2014,0.2217
+Commercial,Renewables,2015,0.2321
+Commercial,Renewables,2016,0.286
+Commercial,Renewables,2017,0.2964
+Commercial,Renewables,2018,0.2977
+Commercial,Renewables,2019,0.2989
+Commercial,Renewables,2020,0.3002
+Commercial,Renewables,2021,0.3015
+Commercial,Renewables,2022,0.3028
+Commercial,Renewables,2023,0.3041
+Commercial,Renewables,2024,0.3054
+Commercial,Renewables,2025,0.3067
+Commercial,Renewables,2026,0.308
+Commercial,Renewables,2027,0.3093
+Commercial,Renewables,2028,0.3107
+Commercial,Renewables,2029,0.312
+Commercial,Renewables,2030,0.3134
+Commercial,Renewables,2031,0.3148
+Commercial,Renewables,2032,0.3162
+Commercial,Renewables,2033,0.3176
+Commercial,Renewables,2034,0.319
+Commercial,Renewables,2035,0.3204
+Commercial,Renewables,2036,0.3218
+Commercial,Renewables,2037,0.3233
+Commercial,Renewables,2038,0.3247
+Commercial,Renewables,2039,0.3262
+Commercial,Renewables,2040,0.3277
+Commercial,Renewables,2041,0.3292
+Commercial,Renewables,2042,0.3307
+Commercial,Renewables,2043,0.3322
+Commercial,Renewables,2044,0.3337
+Commercial,Renewables,2045,0.3353
+Commercial,Renewables,2046,0.3368
+Commercial,Renewables,2047,0.3384
+Commercial,Renewables,2048,0.34
+Commercial,Renewables,2049,0.3416
+Commercial,Renewables,2050,0.3432
+Commercial,Total Commercial Delivered Energy,2010,28.784
+Commercial,Total Commercial Delivered Energy,2011,28.9452
+Commercial,Total Commercial Delivered Energy,2012,29.0973
+Commercial,Total Commercial Delivered Energy,2013,30.2643
+Commercial,Total Commercial Delivered Energy,2014,30.2501
+Commercial,Total Commercial Delivered Energy,2015,31.1139
+Commercial,Total Commercial Delivered Energy,2016,31.4593
+Commercial,Total Commercial Delivered Energy,2017,32.0153
+Commercial,Total Commercial Delivered Energy,2018,32.6148
+Commercial,Total Commercial Delivered Energy,2019,32.9524
+Commercial,Total Commercial Delivered Energy,2020,33.3005
+Commercial,Total Commercial Delivered Energy,2021,33.6421
+Commercial,Total Commercial Delivered Energy,2022,34.0213
+Commercial,Total Commercial Delivered Energy,2023,34.4045
+Commercial,Total Commercial Delivered Energy,2024,34.8083
+Commercial,Total Commercial Delivered Energy,2025,35.2131
+Commercial,Total Commercial Delivered Energy,2026,35.6922
+Commercial,Total Commercial Delivered Energy,2027,36.1729
+Commercial,Total Commercial Delivered Energy,2028,36.6866
+Commercial,Total Commercial Delivered Energy,2029,37.2148
+Commercial,Total Commercial Delivered Energy,2030,37.7441
+Commercial,Total Commercial Delivered Energy,2031,38.231
+Commercial,Total Commercial Delivered Energy,2032,38.7049
+Commercial,Total Commercial Delivered Energy,2033,39.1891
+Commercial,Total Commercial Delivered Energy,2034,39.6991
+Commercial,Total Commercial Delivered Energy,2035,40.2151
+Commercial,Total Commercial Delivered Energy,2036,40.7331
+Commercial,Total Commercial Delivered Energy,2037,41.2387
+Commercial,Total Commercial Delivered Energy,2038,41.7516
+Commercial,Total Commercial Delivered Energy,2039,42.2764
+Commercial,Total Commercial Delivered Energy,2040,42.8143
+Commercial,Total Commercial Delivered Energy,2041,43.3719
+Commercial,Total Commercial Delivered Energy,2042,43.9331
+Commercial,Total Commercial Delivered Energy,2043,44.5301
+Commercial,Total Commercial Delivered Energy,2044,45.1162
+Commercial,Total Commercial Delivered Energy,2045,45.7205
+Commercial,Total Commercial Delivered Energy,2046,46.2949
+Commercial,Total Commercial Delivered Energy,2047,46.8934
+Commercial,Total Commercial Delivered Energy,2048,47.4977
+Commercial,Total Commercial Delivered Energy,2049,48.0839
+Commercial,Total Commercial Delivered Energy,2050,48.7143
+Industrial,Liquids,2010,58.4134
+Industrial,Liquids,2011,58.0442
+Industrial,Liquids,2012,59.208
+Industrial,Liquids,2013,58.8252
+Industrial,Liquids,2014,60.0855
+Industrial,Liquids,2015,61.1289
+Industrial,Liquids,2016,62.1488
+Industrial,Liquids,2017,61.7001
+Industrial,Liquids,2018,62.4094
+Industrial,Liquids,2019,62.635
+Industrial,Liquids,2020,63.1505
+Industrial,Liquids,2021,63.7584
+Industrial,Liquids,2022,64.0159
+Industrial,Liquids,2023,64.224
+Industrial,Liquids,2024,64.5173
+Industrial,Liquids,2025,65.1501
+Industrial,Liquids,2026,65.3077
+Industrial,Liquids,2027,65.9477
+Industrial,Liquids,2028,66.5104
+Industrial,Liquids,2029,67.1766
+Industrial,Liquids,2030,67.8527
+Industrial,Liquids,2031,68.595
+Industrial,Liquids,2032,69.1768
+Industrial,Liquids,2033,69.8122
+Industrial,Liquids,2034,70.3942
+Industrial,Liquids,2035,71.1488
+Industrial,Liquids,2036,71.7751
+Industrial,Liquids,2037,72.4995
+Industrial,Liquids,2038,73.2921
+Industrial,Liquids,2039,73.8128
+Industrial,Liquids,2040,74.4788
+Industrial,Liquids,2041,75.3088
+Industrial,Liquids,2042,76.0868
+Industrial,Liquids,2043,76.6902
+Industrial,Liquids,2044,77.4471
+Industrial,Liquids,2045,78.1609
+Industrial,Liquids,2046,78.9985
+Industrial,Liquids,2047,79.6959
+Industrial,Liquids,2048,80.5417
+Industrial,Liquids,2049,81.1075
+Industrial,Liquids,2050,81.9011
+Industrial,Natural Gas,2010,47.2811
+Industrial,Natural Gas,2011,49.9925
+Industrial,Natural Gas,2012,51.91
+Industrial,Natural Gas,2013,52.8133
+Industrial,Natural Gas,2014,53.3914
+Industrial,Natural Gas,2015,53.5952
+Industrial,Natural Gas,2016,54.3692
+Industrial,Natural Gas,2017,54.5399
+Industrial,Natural Gas,2018,55.2578
+Industrial,Natural Gas,2019,55.4904
+Industrial,Natural Gas,2020,55.9433
+Industrial,Natural Gas,2021,56.9425
+Industrial,Natural Gas,2022,57.2623
+Industrial,Natural Gas,2023,57.6332
+Industrial,Natural Gas,2024,58.0155
+Industrial,Natural Gas,2025,58.5085
+Industrial,Natural Gas,2026,59.1312
+Industrial,Natural Gas,2027,59.6141
+Industrial,Natural Gas,2028,60.2114
+Industrial,Natural Gas,2029,60.728
+Industrial,Natural Gas,2030,61.1896
+Industrial,Natural Gas,2031,61.753
+Industrial,Natural Gas,2032,62.1636
+Industrial,Natural Gas,2033,62.7846
+Industrial,Natural Gas,2034,63.3913
+Industrial,Natural Gas,2035,64.1192
+Industrial,Natural Gas,2036,64.6208
+Industrial,Natural Gas,2037,65.2401
+Industrial,Natural Gas,2038,65.8651
+Industrial,Natural Gas,2039,66.6009
+Industrial,Natural Gas,2040,67.386
+Industrial,Natural Gas,2041,68.0889
+Industrial,Natural Gas,2042,68.8455
+Industrial,Natural Gas,2043,69.6082
+Industrial,Natural Gas,2044,70.267
+Industrial,Natural Gas,2045,71.0621
+Industrial,Natural Gas,2046,71.8392
+Industrial,Natural Gas,2047,72.6045
+Industrial,Natural Gas,2048,73.4744
+Industrial,Natural Gas,2049,74.2506
+Industrial,Natural Gas,2050,75.1197
+Industrial,Coal,2010,62.2455
+Industrial,Coal,2011,66.427
+Industrial,Coal,2012,69.3353
+Industrial,Coal,2013,69.1349
+Industrial,Coal,2014,69.5443
+Industrial,Coal,2015,68.1609
+Industrial,Coal,2016,64.8812
+Industrial,Coal,2017,63.9576
+Industrial,Coal,2018,63.6836
+Industrial,Coal,2019,62.7543
+Industrial,Coal,2020,62.3643
+Industrial,Coal,2021,61.9557
+Industrial,Coal,2022,61.6453
+Industrial,Coal,2023,61.4956
+Industrial,Coal,2024,61.4268
+Industrial,Coal,2025,61.4057
+Industrial,Coal,2026,61.3351
+Industrial,Coal,2027,61.4613
+Industrial,Coal,2028,61.6204
+Industrial,Coal,2029,61.8833
+Industrial,Coal,2030,62.1726
+Industrial,Coal,2031,62.5268
+Industrial,Coal,2032,62.8218
+Industrial,Coal,2033,63.2495
+Industrial,Coal,2034,63.6403
+Industrial,Coal,2035,64.1695
+Industrial,Coal,2036,64.7904
+Industrial,Coal,2037,65.4179
+Industrial,Coal,2038,66.0716
+Industrial,Coal,2039,66.7987
+Industrial,Coal,2040,67.5142
+Industrial,Coal,2041,68.4273
+Industrial,Coal,2042,69.3537
+Industrial,Coal,2043,70.3219
+Industrial,Coal,2044,71.3337
+Industrial,Coal,2045,72.3624
+Industrial,Coal,2046,73.409
+Industrial,Coal,2047,74.3858
+Industrial,Coal,2048,75.4142
+Industrial,Coal,2049,76.3814
+Industrial,Coal,2050,77.3567
+Industrial,Electricity,2010,29.8128
+Industrial,Electricity,2011,31.5648
+Industrial,Electricity,2012,32.2753
+Industrial,Electricity,2013,33.2201
+Industrial,Electricity,2014,34.0303
+Industrial,Electricity,2015,34.0561
+Industrial,Electricity,2016,34.9618
+Industrial,Electricity,2017,35.0541
+Industrial,Electricity,2018,36.6742
+Industrial,Electricity,2019,37.2181
+Industrial,Electricity,2020,37.8984
+Industrial,Electricity,2021,38.5858
+Industrial,Electricity,2022,39.0508
+Industrial,Electricity,2023,39.5232
+Industrial,Electricity,2024,40.0074
+Industrial,Electricity,2025,40.5475
+Industrial,Electricity,2026,40.9686
+Industrial,Electricity,2027,41.5087
+Industrial,Electricity,2028,42.0129
+Industrial,Electricity,2029,42.5513
+Industrial,Electricity,2030,43.0491
+Industrial,Electricity,2031,43.5407
+Industrial,Electricity,2032,43.9403
+Industrial,Electricity,2033,44.3583
+Industrial,Electricity,2034,44.7069
+Industrial,Electricity,2035,45.1649
+Industrial,Electricity,2036,45.6111
+Industrial,Electricity,2037,46.0546
+Industrial,Electricity,2038,46.4051
+Industrial,Electricity,2039,46.7837
+Industrial,Electricity,2040,47.131
+Industrial,Electricity,2041,47.5807
+Industrial,Electricity,2042,47.9911
+Industrial,Electricity,2043,48.448
+Industrial,Electricity,2044,48.894
+Industrial,Electricity,2045,49.3229
+Industrial,Electricity,2046,49.7833
+Industrial,Electricity,2047,50.1236
+Industrial,Electricity,2048,50.5034
+Industrial,Electricity,2049,50.8195
+Industrial,Electricity,2050,51.1653
+Industrial,Renewables,2010,16.1289
+Industrial,Renewables,2011,16.5426
+Industrial,Renewables,2012,17.5579
+Industrial,Renewables,2013,18.139
+Industrial,Renewables,2014,18.7014
+Industrial,Renewables,2015,19.4241
+Industrial,Renewables,2016,20.5605
+Industrial,Renewables,2017,20.7241
+Industrial,Renewables,2018,20.7976
+Industrial,Renewables,2019,20.5531
+Industrial,Renewables,2020,20.767
+Industrial,Renewables,2021,20.9503
+Industrial,Renewables,2022,21.0707
+Industrial,Renewables,2023,21.2102
+Industrial,Renewables,2024,21.406
+Industrial,Renewables,2025,21.6599
+Industrial,Renewables,2026,21.8222
+Industrial,Renewables,2027,22.1278
+Industrial,Renewables,2028,22.4339
+Industrial,Renewables,2029,22.8085
+Industrial,Renewables,2030,23.1562
+Industrial,Renewables,2031,23.515
+Industrial,Renewables,2032,23.825
+Industrial,Renewables,2033,24.2208
+Industrial,Renewables,2034,24.5225
+Industrial,Renewables,2035,24.9343
+Industrial,Renewables,2036,25.367
+Industrial,Renewables,2037,25.7855
+Industrial,Renewables,2038,26.1769
+Industrial,Renewables,2039,26.5532
+Industrial,Renewables,2040,26.9413
+Industrial,Renewables,2041,27.4014
+Industrial,Renewables,2042,27.8323
+Industrial,Renewables,2043,28.2131
+Industrial,Renewables,2044,28.6143
+Industrial,Renewables,2045,29.0059
+Industrial,Renewables,2046,29.4705
+Industrial,Renewables,2047,29.8846
+Industrial,Renewables,2048,30.3337
+Industrial,Renewables,2049,30.694
+Industrial,Renewables,2050,31.1144
+Industrial,Total Industrial Delivered Energy,2010,213.8817
+Industrial,Total Industrial Delivered Energy,2011,222.5712
+Industrial,Total Industrial Delivered Energy,2012,230.2865
+Industrial,Total Industrial Delivered Energy,2013,232.1325
+Industrial,Total Industrial Delivered Energy,2014,235.7529
+Industrial,Total Industrial Delivered Energy,2015,236.3652
+Industrial,Total Industrial Delivered Energy,2016,236.9216
+Industrial,Total Industrial Delivered Energy,2017,235.9757
+Industrial,Total Industrial Delivered Energy,2018,238.8226
+Industrial,Total Industrial Delivered Energy,2019,238.6509
+Industrial,Total Industrial Delivered Energy,2020,240.1235
+Industrial,Total Industrial Delivered Energy,2021,242.1928
+Industrial,Total Industrial Delivered Energy,2022,243.0449
+Industrial,Total Industrial Delivered Energy,2023,244.0862
+Industrial,Total Industrial Delivered Energy,2024,245.373
+Industrial,Total Industrial Delivered Energy,2025,247.2717
+Industrial,Total Industrial Delivered Energy,2026,248.5648
+Industrial,Total Industrial Delivered Energy,2027,250.6597
+Industrial,Total Industrial Delivered Energy,2028,252.789
+Industrial,Total Industrial Delivered Energy,2029,255.1478
+Industrial,Total Industrial Delivered Energy,2030,257.4202
+Industrial,Total Industrial Delivered Energy,2031,259.9305
+Industrial,Total Industrial Delivered Energy,2032,261.9275
+Industrial,Total Industrial Delivered Energy,2033,264.4254
+Industrial,Total Industrial Delivered Energy,2034,266.6551
+Industrial,Total Industrial Delivered Energy,2035,269.5367
+Industrial,Total Industrial Delivered Energy,2036,272.1645
+Industrial,Total Industrial Delivered Energy,2037,274.9976
+Industrial,Total Industrial Delivered Energy,2038,277.8109
+Industrial,Total Industrial Delivered Energy,2039,280.5494
+Industrial,Total Industrial Delivered Energy,2040,283.4513
+Industrial,Total Industrial Delivered Energy,2041,286.8072
+Industrial,Total Industrial Delivered Energy,2042,290.1094
+Industrial,Total Industrial Delivered Energy,2043,293.2815
+Industrial,Total Industrial Delivered Energy,2044,296.5562
+Industrial,Total Industrial Delivered Energy,2045,299.9142
+Industrial,Total Industrial Delivered Energy,2046,303.5006
+Industrial,Total Industrial Delivered Energy,2047,306.6945
+Industrial,Total Industrial Delivered Energy,2048,310.2674
+Industrial,Total Industrial Delivered Energy,2049,313.2529
+Industrial,Total Industrial Delivered Energy,2050,316.6572
+Transportation,Liquids,2010,97.5161
+Transportation,Liquids,2011,99.1317
+Transportation,Liquids,2012,100.4013
+Transportation,Liquids,2013,102.3902
+Transportation,Liquids,2014,105.0579
+Transportation,Liquids,2015,108.0782
+Transportation,Liquids,2016,111.5867
+Transportation,Liquids,2017,112.6778
+Transportation,Liquids,2018,113.8648
+Transportation,Liquids,2019,114.9678
+Transportation,Liquids,2020,115.7829
+Transportation,Liquids,2021,116.5015
+Transportation,Liquids,2022,117.2766
+Transportation,Liquids,2023,117.8168
+Transportation,Liquids,2024,118.3346
+Transportation,Liquids,2025,118.7705
+Transportation,Liquids,2026,119.1608
+Transportation,Liquids,2027,119.4139
+Transportation,Liquids,2028,119.7096
+Transportation,Liquids,2029,119.918
+Transportation,Liquids,2030,120.1318
+Transportation,Liquids,2031,120.3411
+Transportation,Liquids,2032,120.6145
+Transportation,Liquids,2033,120.8469
+Transportation,Liquids,2034,121.2584
+Transportation,Liquids,2035,121.7737
+Transportation,Liquids,2036,122.4461
+Transportation,Liquids,2037,123.1245
+Transportation,Liquids,2038,123.8791
+Transportation,Liquids,2039,124.7092
+Transportation,Liquids,2040,125.5454
+Transportation,Liquids,2041,126.4871
+Transportation,Liquids,2042,127.4362
+Transportation,Liquids,2043,128.5821
+Transportation,Liquids,2044,129.6104
+Transportation,Liquids,2045,130.7059
+Transportation,Liquids,2046,131.7354
+Transportation,Liquids,2047,132.9321
+Transportation,Liquids,2048,134.1201
+Transportation,Liquids,2049,135.269
+Transportation,Liquids,2050,136.486
+Transportation,Natural Gas,2010,3.8963
+Transportation,Natural Gas,2011,4.122
+Transportation,Natural Gas,2012,3.9477
+Transportation,Natural Gas,2013,4.019
+Transportation,Natural Gas,2014,4.2558
+Transportation,Natural Gas,2015,4.3664
+Transportation,Natural Gas,2016,4.5051
+Transportation,Natural Gas,2017,5.0443
+Transportation,Natural Gas,2018,5.4028
+Transportation,Natural Gas,2019,5.7553
+Transportation,Natural Gas,2020,6.1518
+Transportation,Natural Gas,2021,6.6859
+Transportation,Natural Gas,2022,7.2047
+Transportation,Natural Gas,2023,7.7658
+Transportation,Natural Gas,2024,8.3368
+Transportation,Natural Gas,2025,8.9146
+Transportation,Natural Gas,2026,9.4811
+Transportation,Natural Gas,2027,10.1042
+Transportation,Natural Gas,2028,10.6172
+Transportation,Natural Gas,2029,11.1763
+Transportation,Natural Gas,2030,11.6707
+Transportation,Natural Gas,2031,12.1288
+Transportation,Natural Gas,2032,12.4747
+Transportation,Natural Gas,2033,12.9248
+Transportation,Natural Gas,2034,13.3662
+Transportation,Natural Gas,2035,13.8795
+Transportation,Natural Gas,2036,14.2671
+Transportation,Natural Gas,2037,14.7818
+Transportation,Natural Gas,2038,15.2853
+Transportation,Natural Gas,2039,15.7885
+Transportation,Natural Gas,2040,16.2089
+Transportation,Natural Gas,2041,16.8276
+Transportation,Natural Gas,2042,17.3729
+Transportation,Natural Gas,2043,17.9218
+Transportation,Natural Gas,2044,18.6107
+Transportation,Natural Gas,2045,19.2536
+Transportation,Natural Gas,2046,19.8572
+Transportation,Natural Gas,2047,20.4353
+Transportation,Natural Gas,2048,21.0186
+Transportation,Natural Gas,2049,21.6267
+Transportation,Natural Gas,2050,22.3021
+Transportation,Coal,2010,0.0081
+Transportation,Coal,2011,0.0103
+Transportation,Coal,2012,0.0087
+Transportation,Coal,2013,0.0052
+Transportation,Coal,2014,0.004
+Transportation,Coal,2015,0.0049
+Transportation,Coal,2016,0.0029
+Transportation,Coal,2017,0
+Transportation,Coal,2018,0
+Transportation,Coal,2019,0
+Transportation,Coal,2020,0
+Transportation,Coal,2021,0
+Transportation,Coal,2022,0
+Transportation,Coal,2023,0
+Transportation,Coal,2024,0
+Transportation,Coal,2025,0
+Transportation,Coal,2026,0
+Transportation,Coal,2027,0
+Transportation,Coal,2028,0
+Transportation,Coal,2029,0
+Transportation,Coal,2030,0
+Transportation,Coal,2031,0
+Transportation,Coal,2032,0
+Transportation,Coal,2033,0
+Transportation,Coal,2034,0
+Transportation,Coal,2035,0
+Transportation,Coal,2036,0
+Transportation,Coal,2037,0
+Transportation,Coal,2038,0
+Transportation,Coal,2039,0
+Transportation,Coal,2040,0
+Transportation,Coal,2041,0
+Transportation,Coal,2042,0
+Transportation,Coal,2043,0
+Transportation,Coal,2044,0
+Transportation,Coal,2045,0
+Transportation,Coal,2046,0
+Transportation,Coal,2047,0
+Transportation,Coal,2048,0
+Transportation,Coal,2049,0
+Transportation,Coal,2050,0
+Transportation,Electricity,2010,1.0317
+Transportation,Electricity,2011,1.1157
+Transportation,Electricity,2012,1.1345
+Transportation,Electricity,2013,1.1712
+Transportation,Electricity,2014,1.195
+Transportation,Electricity,2015,1.226
+Transportation,Electricity,2016,1.3004
+Transportation,Electricity,2017,1.565
+Transportation,Electricity,2018,1.6347
+Transportation,Electricity,2019,1.7239
+Transportation,Electricity,2020,1.8174
+Transportation,Electricity,2021,1.9106
+Transportation,Electricity,2022,2.0121
+Transportation,Electricity,2023,2.1198
+Transportation,Electricity,2024,2.2318
+Transportation,Electricity,2025,2.3561
+Transportation,Electricity,2026,2.4911
+Transportation,Electricity,2027,2.6422
+Transportation,Electricity,2028,2.798
+Transportation,Electricity,2029,2.9675
+Transportation,Electricity,2030,3.1464
+Transportation,Electricity,2031,3.3314
+Transportation,Electricity,2032,3.5253
+Transportation,Electricity,2033,3.7316
+Transportation,Electricity,2034,3.9486
+Transportation,Electricity,2035,4.1799
+Transportation,Electricity,2036,4.4224
+Transportation,Electricity,2037,4.6624
+Transportation,Electricity,2038,4.906
+Transportation,Electricity,2039,5.1617
+Transportation,Electricity,2040,5.4259
+Transportation,Electricity,2041,5.6978
+Transportation,Electricity,2042,5.9835
+Transportation,Electricity,2043,6.2766
+Transportation,Electricity,2044,6.5834
+Transportation,Electricity,2045,6.897
+Transportation,Electricity,2046,7.2023
+Transportation,Electricity,2047,7.505
+Transportation,Electricity,2048,7.807
+Transportation,Electricity,2049,8.1096
+Transportation,Electricity,2050,8.4107
+Transportation,Renewables,2010,0
+Transportation,Renewables,2011,0
+Transportation,Renewables,2012,0
+Transportation,Renewables,2013,0
+Transportation,Renewables,2014,0
+Transportation,Renewables,2015,0
+Transportation,Renewables,2016,0
+Transportation,Renewables,2017,0
+Transportation,Renewables,2018,0
+Transportation,Renewables,2019,0
+Transportation,Renewables,2020,0
+Transportation,Renewables,2021,0
+Transportation,Renewables,2022,0
+Transportation,Renewables,2023,0
+Transportation,Renewables,2024,0
+Transportation,Renewables,2025,0
+Transportation,Renewables,2026,0
+Transportation,Renewables,2027,0
+Transportation,Renewables,2028,0
+Transportation,Renewables,2029,0
+Transportation,Renewables,2030,0
+Transportation,Renewables,2031,0
+Transportation,Renewables,2032,0
+Transportation,Renewables,2033,0
+Transportation,Renewables,2034,0
+Transportation,Renewables,2035,0
+Transportation,Renewables,2036,0
+Transportation,Renewables,2037,0
+Transportation,Renewables,2038,0
+Transportation,Renewables,2039,0
+Transportation,Renewables,2040,0
+Transportation,Renewables,2041,0
+Transportation,Renewables,2042,0
+Transportation,Renewables,2043,0
+Transportation,Renewables,2044,0
+Transportation,Renewables,2045,0
+Transportation,Renewables,2046,0
+Transportation,Renewables,2047,0
+Transportation,Renewables,2048,0
+Transportation,Renewables,2049,0
+Transportation,Renewables,2050,0
+Transportation,Total Transportation Delivered Energy,2010,102.4522
+Transportation,Total Transportation Delivered Energy,2011,104.3797
+Transportation,Total Transportation Delivered Energy,2012,105.4922
+Transportation,Total Transportation Delivered Energy,2013,107.5856
+Transportation,Total Transportation Delivered Energy,2014,110.5127
+Transportation,Total Transportation Delivered Energy,2015,113.6755
+Transportation,Total Transportation Delivered Energy,2016,117.3951
+Transportation,Total Transportation Delivered Energy,2017,119.2872
+Transportation,Total Transportation Delivered Energy,2018,120.9023
+Transportation,Total Transportation Delivered Energy,2019,122.447
+Transportation,Total Transportation Delivered Energy,2020,123.7522
+Transportation,Total Transportation Delivered Energy,2021,125.0981
+Transportation,Total Transportation Delivered Energy,2022,126.4934
+Transportation,Total Transportation Delivered Energy,2023,127.7024
+Transportation,Total Transportation Delivered Energy,2024,128.9032
+Transportation,Total Transportation Delivered Energy,2025,130.0412
+Transportation,Total Transportation Delivered Energy,2026,131.133
+Transportation,Total Transportation Delivered Energy,2027,132.1603
+Transportation,Total Transportation Delivered Energy,2028,133.1247
+Transportation,Total Transportation Delivered Energy,2029,134.0618
+Transportation,Total Transportation Delivered Energy,2030,134.9489
+Transportation,Total Transportation Delivered Energy,2031,135.8013
+Transportation,Total Transportation Delivered Energy,2032,136.6145
+Transportation,Total Transportation Delivered Energy,2033,137.5034
+Transportation,Total Transportation Delivered Energy,2034,138.5733
+Transportation,Total Transportation Delivered Energy,2035,139.833
+Transportation,Total Transportation Delivered Energy,2036,141.1355
+Transportation,Total Transportation Delivered Energy,2037,142.5687
+Transportation,Total Transportation Delivered Energy,2038,144.0703
+Transportation,Total Transportation Delivered Energy,2039,145.6594
+Transportation,Total Transportation Delivered Energy,2040,147.1801
+Transportation,Total Transportation Delivered Energy,2041,149.0126
+Transportation,Total Transportation Delivered Energy,2042,150.7926
+Transportation,Total Transportation Delivered Energy,2043,152.7806
+Transportation,Total Transportation Delivered Energy,2044,154.8044
+Transportation,Total Transportation Delivered Energy,2045,156.8565
+Transportation,Total Transportation Delivered Energy,2046,158.795
+Transportation,Total Transportation Delivered Energy,2047,160.8724
+Transportation,Total Transportation Delivered Energy,2048,162.9456
+Transportation,Total Transportation Delivered Energy,2049,165.0053
+Transportation,Total Transportation Delivered Energy,2050,167.1987
+Total End-Use,Liquids,2010,168.6902
+Total End-Use,Liquids,2011,169.5063
+Total End-Use,Liquids,2012,171.8223
+Total End-Use,Liquids,2013,173.7223
+Total End-Use,Liquids,2014,177.4535
+Total End-Use,Liquids,2015,182.0356
+Total End-Use,Liquids,2016,186.3722
+Total End-Use,Liquids,2017,187.4017
+Total End-Use,Liquids,2018,189.0942
+Total End-Use,Liquids,2019,190.321
+Total End-Use,Liquids,2020,191.5094
+Total End-Use,Liquids,2021,192.6491
+Total End-Use,Liquids,2022,193.5942
+Total End-Use,Liquids,2023,194.2968
+Total End-Use,Liquids,2024,195.0877
+Total End-Use,Liquids,2025,196.0934
+Total End-Use,Liquids,2026,196.6481
+Total End-Use,Liquids,2027,197.532
+Total End-Use,Liquids,2028,198.4113
+Total End-Use,Liquids,2029,199.2939
+Total End-Use,Liquids,2030,200.2206
+Total End-Use,Liquids,2031,201.19
+Total End-Use,Liquids,2032,202.0498
+Total End-Use,Liquids,2033,202.9156
+Total End-Use,Liquids,2034,203.9326
+Total End-Use,Liquids,2035,205.2183
+Total End-Use,Liquids,2036,206.533
+Total End-Use,Liquids,2037,207.9471
+Total End-Use,Liquids,2038,209.4891
+Total End-Use,Liquids,2039,210.8822
+Total End-Use,Liquids,2040,212.3979
+Total End-Use,Liquids,2041,214.1945
+Total End-Use,Liquids,2042,215.9172
+Total End-Use,Liquids,2043,217.7048
+Total End-Use,Liquids,2044,219.49
+Total End-Use,Liquids,2045,221.3209
+Total End-Use,Liquids,2046,223.1759
+Total End-Use,Liquids,2047,225.1081
+Total End-Use,Liquids,2048,227.1648
+Total End-Use,Liquids,2049,228.8907
+Total End-Use,Liquids,2050,230.9204
+Total End-Use,Natural Gas,2010,79.9888
+Total End-Use,Natural Gas,2011,82.8199
+Total End-Use,Natural Gas,2012,83.7582
+Total End-Use,Natural Gas,2013,86.4264
+Total End-Use,Natural Gas,2014,86.8641
+Total End-Use,Natural Gas,2015,86.6315
+Total End-Use,Natural Gas,2016,87.8869
+Total End-Use,Natural Gas,2017,89.1498
+Total End-Use,Natural Gas,2018,91.1322
+Total End-Use,Natural Gas,2019,92.021
+Total End-Use,Natural Gas,2020,92.8571
+Total End-Use,Natural Gas,2021,94.5092
+Total End-Use,Natural Gas,2022,95.4782
+Total End-Use,Natural Gas,2023,96.5741
+Total End-Use,Natural Gas,2024,97.7156
+Total End-Use,Natural Gas,2025,98.9533
+Total End-Use,Natural Gas,2026,100.4157
+Total End-Use,Natural Gas,2027,101.7379
+Total End-Use,Natural Gas,2028,103.0814
+Total End-Use,Natural Gas,2029,104.4435
+Total End-Use,Natural Gas,2030,105.6493
+Total End-Use,Natural Gas,2031,106.8682
+Total End-Use,Natural Gas,2032,107.8473
+Total End-Use,Natural Gas,2033,109.1496
+Total End-Use,Natural Gas,2034,110.4488
+Total End-Use,Natural Gas,2035,111.9128
+Total End-Use,Natural Gas,2036,113.0751
+Total End-Use,Natural Gas,2037,114.4709
+Total End-Use,Natural Gas,2038,115.8874
+Total End-Use,Natural Gas,2039,117.3383
+Total End-Use,Natural Gas,2040,118.8434
+Total End-Use,Natural Gas,2041,120.4248
+Total End-Use,Natural Gas,2042,121.9895
+Total End-Use,Natural Gas,2043,123.5863
+Total End-Use,Natural Gas,2044,125.2068
+Total End-Use,Natural Gas,2045,126.8884
+Total End-Use,Natural Gas,2046,128.5358
+Total End-Use,Natural Gas,2047,130.1279
+Total End-Use,Natural Gas,2048,131.8537
+Total End-Use,Natural Gas,2049,133.4395
+Total End-Use,Natural Gas,2050,135.2783
+Total End-Use,Coal,2010,68.2421
+Total End-Use,Coal,2011,72.5539
+Total End-Use,Coal,2012,75.827
+Total End-Use,Coal,2013,75.4266
+Total End-Use,Coal,2014,75.664
+Total End-Use,Coal,2015,74.25
+Total End-Use,Coal,2016,70.7695
+Total End-Use,Coal,2017,69.4963
+Total End-Use,Coal,2018,69.1282
+Total End-Use,Coal,2019,68.1186
+Total End-Use,Coal,2020,67.6639
+Total End-Use,Coal,2021,67.1861
+Total End-Use,Coal,2022,66.8248
+Total End-Use,Coal,2023,66.6307
+Total End-Use,Coal,2024,66.5179
+Total End-Use,Coal,2025,66.4589
+Total End-Use,Coal,2026,66.3527
+Total End-Use,Coal,2027,66.4477
+Total End-Use,Coal,2028,66.567
+Total End-Use,Coal,2029,66.7926
+Total End-Use,Coal,2030,67.0464
+Total End-Use,Coal,2031,67.3702
+Total End-Use,Coal,2032,67.6344
+Total End-Use,Coal,2033,68.0343
+Total End-Use,Coal,2034,68.3982
+Total End-Use,Coal,2035,68.9043
+Total End-Use,Coal,2036,69.5034
+Total End-Use,Coal,2037,70.1063
+Total End-Use,Coal,2038,70.7358
+Total End-Use,Coal,2039,71.4436
+Total End-Use,Coal,2040,72.1374
+Total End-Use,Coal,2041,73.0343
+Total End-Use,Coal,2042,73.9431
+Total End-Use,Coal,2043,74.8996
+Total End-Use,Coal,2044,75.9012
+Total End-Use,Coal,2045,76.9227
+Total End-Use,Coal,2046,77.9542
+Total End-Use,Coal,2047,78.918
+Total End-Use,Coal,2048,79.9357
+Total End-Use,Coal,2049,80.8925
+Total End-Use,Coal,2050,81.8601
+Total End-Use,Electricity,2010,63.4445
+Total End-Use,Electricity,2011,65.6764
+Total End-Use,Electricity,2012,67.0649
+Total End-Use,Electricity,2013,69.1637
+Total End-Use,Electricity,2014,70.5982
+Total End-Use,Electricity,2015,72.0479
+Total End-Use,Electricity,2016,74.1439
+Total End-Use,Electricity,2017,75.8952
+Total End-Use,Electricity,2018,78.9533
+Total End-Use,Electricity,2019,80.3237
+Total End-Use,Electricity,2020,82.0458
+Total End-Use,Electricity,2021,83.7768
+Total End-Use,Electricity,2022,85.314
+Total End-Use,Electricity,2023,86.8785
+Total End-Use,Electricity,2024,88.5087
+Total End-Use,Electricity,2025,90.2507
+Total End-Use,Electricity,2026,92.0065
+Total End-Use,Electricity,2027,93.9422
+Total End-Use,Electricity,2028,95.8848
+Total End-Use,Electricity,2029,97.9318
+Total End-Use,Electricity,2030,99.9703
+Total End-Use,Electricity,2031,101.875
+Total End-Use,Electricity,2032,103.7053
+Total End-Use,Electricity,2033,105.5965
+Total End-Use,Electricity,2034,107.4732
+Total End-Use,Electricity,2035,109.5127
+Total End-Use,Electricity,2036,111.4588
+Total End-Use,Electricity,2037,113.4124
+Total End-Use,Electricity,2038,115.2786
+Total End-Use,Electricity,2039,117.2158
+Total End-Use,Electricity,2040,119.1524
+Total End-Use,Electricity,2041,121.3862
+Total End-Use,Electricity,2042,123.6457
+Total End-Use,Electricity,2043,125.9975
+Total End-Use,Electricity,2044,128.4061
+Total End-Use,Electricity,2045,130.8346
+Total End-Use,Electricity,2046,133.0389
+Total End-Use,Electricity,2047,135.127
+Total End-Use,Electricity,2048,137.2568
+Total End-Use,Electricity,2049,139.3205
+Total End-Use,Electricity,2050,141.481
+Total End-Use,Renewables,2010,17.2803
+Total End-Use,Renewables,2011,17.7939
+Total End-Use,Renewables,2012,18.7759
+Total End-Use,Renewables,2013,19.7401
+Total End-Use,Renewables,2014,20.3745
+Total End-Use,Renewables,2015,21.0336
+Total End-Use,Renewables,2016,22.587
+Total End-Use,Renewables,2017,22.7592
+Total End-Use,Renewables,2018,22.9165
+Total End-Use,Renewables,2019,22.695
+Total End-Use,Renewables,2020,22.9081
+Total End-Use,Renewables,2021,23.0993
+Total End-Use,Renewables,2022,23.2265
+Total End-Use,Renewables,2023,23.3742
+Total End-Use,Renewables,2024,23.5808
+Total End-Use,Renewables,2025,23.8464
+Total End-Use,Renewables,2026,24.0205
+Total End-Use,Renewables,2027,24.339
+Total End-Use,Renewables,2028,24.6566
+Total End-Use,Renewables,2029,25.0428
+Total End-Use,Renewables,2030,25.401
+Total End-Use,Renewables,2031,25.7699
+Total End-Use,Renewables,2032,26.0903
+Total End-Use,Renewables,2033,26.497
+Total End-Use,Renewables,2034,26.8087
+Total End-Use,Renewables,2035,27.2308
+Total End-Use,Renewables,2036,27.6745
+Total End-Use,Renewables,2037,28.1031
+Total End-Use,Renewables,2038,28.5049
+Total End-Use,Renewables,2039,28.8918
+Total End-Use,Renewables,2040,29.2911
+Total End-Use,Renewables,2041,29.7624
+Total End-Use,Renewables,2042,30.2049
+Total End-Use,Renewables,2043,30.5973
+Total End-Use,Renewables,2044,31.0098
+Total End-Use,Renewables,2045,31.413
+Total End-Use,Renewables,2046,31.8895
+Total End-Use,Renewables,2047,32.3156
+Total End-Use,Renewables,2048,32.7769
+Total End-Use,Renewables,2049,33.1494
+Total End-Use,Renewables,2050,33.5821
+Total End-Use,Total Delivered Energy,2010,397.6459
+Total End-Use,Total Delivered Energy,2011,408.3504
+Total End-Use,Total Delivered Energy,2012,417.2483
+Total End-Use,Total Delivered Energy,2013,424.4791
+Total End-Use,Total Delivered Energy,2014,430.9543
+Total End-Use,Total Delivered Energy,2015,435.9986
+Total End-Use,Total Delivered Energy,2016,441.7595
+Total End-Use,Total Delivered Energy,2017,444.7023
+Total End-Use,Total Delivered Energy,2018,451.2244
+Total End-Use,Total Delivered Energy,2019,453.4794
+Total End-Use,Total Delivered Energy,2020,456.9842
+Total End-Use,Total Delivered Energy,2021,461.2205
+Total End-Use,Total Delivered Energy,2022,464.4379
+Total End-Use,Total Delivered Energy,2023,467.7542
+Total End-Use,Total Delivered Energy,2024,471.4108
+Total End-Use,Total Delivered Energy,2025,475.6027
+Total End-Use,Total Delivered Energy,2026,479.4435
+Total End-Use,Total Delivered Energy,2027,483.9989
+Total End-Use,Total Delivered Energy,2028,488.6012
+Total End-Use,Total Delivered Energy,2029,493.5046
+Total End-Use,Total Delivered Energy,2030,498.2877
+Total End-Use,Total Delivered Energy,2031,503.0734
+Total End-Use,Total Delivered Energy,2032,507.3271
+Total End-Use,Total Delivered Energy,2033,512.1929
+Total End-Use,Total Delivered Energy,2034,517.0615
+Total End-Use,Total Delivered Energy,2035,522.7789
+Total End-Use,Total Delivered Energy,2036,528.2448
+Total End-Use,Total Delivered Energy,2037,534.0398
+Total End-Use,Total Delivered Energy,2038,539.8959
+Total End-Use,Total Delivered Energy,2039,545.7718
+Total End-Use,Total Delivered Energy,2040,551.8222
+Total End-Use,Total Delivered Energy,2041,558.8021
+Total End-Use,Total Delivered Energy,2042,565.7005
+Total End-Use,Total Delivered Energy,2043,572.7854
+Total End-Use,Total Delivered Energy,2044,580.0139
+Total End-Use,Total Delivered Energy,2045,587.3796
+Total End-Use,Total Delivered Energy,2046,594.5943
+Total End-Use,Total Delivered Energy,2047,601.5965
+Total End-Use,Total Delivered Energy,2048,608.9879
+Total End-Use,Total Delivered Energy,2049,615.6926
+Total End-Use,Total Delivered Energy,2050,623.1219
+Total End-Use,Electricity Related Losses,2010,139.2247
+Total End-Use,Electricity Related Losses,2011,144.0659
+Total End-Use,Electricity Related Losses,2012,149.0079
+Total End-Use,Electricity Related Losses,2013,151.4843
+Total End-Use,Electricity Related Losses,2014,152.2991
+Total End-Use,Electricity Related Losses,2015,150.6043
+Total End-Use,Electricity Related Losses,2016,150.2806
+Total End-Use,Electricity Related Losses,2017,162.9006
+Total End-Use,Electricity Related Losses,2018,165.4712
+Total End-Use,Electricity Related Losses,2019,168.4314
+Total End-Use,Electricity Related Losses,2020,171.7483
+Total End-Use,Electricity Related Losses,2021,173.7855
+Total End-Use,Electricity Related Losses,2022,176.0021
+Total End-Use,Electricity Related Losses,2023,178.2298
+Total End-Use,Electricity Related Losses,2024,180.5472
+Total End-Use,Electricity Related Losses,2025,182.6337
+Total End-Use,Electricity Related Losses,2026,186.1531
+Total End-Use,Electricity Related Losses,2027,189.5575
+Total End-Use,Electricity Related Losses,2028,193.035
+Total End-Use,Electricity Related Losses,2029,196.5013
+Total End-Use,Electricity Related Losses,2030,199.8485
+Total End-Use,Electricity Related Losses,2031,203.2924
+Total End-Use,Electricity Related Losses,2032,206.6731
+Total End-Use,Electricity Related Losses,2033,210.1321
+Total End-Use,Electricity Related Losses,2034,213.6049
+Total End-Use,Electricity Related Losses,2035,216.9981
+Total End-Use,Electricity Related Losses,2036,220.659
+Total End-Use,Electricity Related Losses,2037,224.2724
+Total End-Use,Electricity Related Losses,2038,228.0122
+Total End-Use,Electricity Related Losses,2039,231.692
+Total End-Use,Electricity Related Losses,2040,235.3515
+Total End-Use,Electricity Related Losses,2041,239.9956
+Total End-Use,Electricity Related Losses,2042,244.6224
+Total End-Use,Electricity Related Losses,2043,249.1725
+Total End-Use,Electricity Related Losses,2044,253.6989
+Total End-Use,Electricity Related Losses,2045,258.2195
+Total End-Use,Electricity Related Losses,2046,262.2856
+Total End-Use,Electricity Related Losses,2047,266.4964
+Total End-Use,Electricity Related Losses,2048,270.6565
+Total End-Use,Electricity Related Losses,2049,274.8945
+Total End-Use,Electricity Related Losses,2050,279.0398
+Total End-Use,Discrepancy,2010,0.6949
+Total End-Use,Discrepancy,2011,0.6513
+Total End-Use,Discrepancy,2012,-0.1559
+Total End-Use,Discrepancy,2013,0.9253
+Total End-Use,Discrepancy,2014,-0.1533
+Total End-Use,Discrepancy,2015,0.0854
+Total End-Use,Discrepancy,2016,-0.5035
+Total End-Use,Discrepancy,2017,2.3881
+Total End-Use,Discrepancy,2018,3.8569
+Total End-Use,Discrepancy,2019,5.7762
+Total End-Use,Discrepancy,2020,6.9745
+Total End-Use,Discrepancy,2021,7.0058
+Total End-Use,Discrepancy,2022,7.0814
+Total End-Use,Discrepancy,2023,7.1517
+Total End-Use,Discrepancy,2024,7.2318
+Total End-Use,Discrepancy,2025,7.3273
+Total End-Use,Discrepancy,2026,7.3992
+Total End-Use,Discrepancy,2027,7.482
+Total End-Use,Discrepancy,2028,7.5618
+Total End-Use,Discrepancy,2029,7.6367
+Total End-Use,Discrepancy,2030,7.7118
+Total End-Use,Discrepancy,2031,7.7915
+Total End-Use,Discrepancy,2032,7.8618
+Total End-Use,Discrepancy,2033,7.9287
+Total End-Use,Discrepancy,2034,8.002
+Total End-Use,Discrepancy,2035,8.0831
+Total End-Use,Discrepancy,2036,8.1525
+Total End-Use,Discrepancy,2037,8.2263
+Total End-Use,Discrepancy,2038,8.3068
+Total End-Use,Discrepancy,2039,8.3729
+Total End-Use,Discrepancy,2040,8.4383
+Total End-Use,Discrepancy,2041,8.5278
+Total End-Use,Discrepancy,2042,8.6145
+Total End-Use,Discrepancy,2043,8.6946
+Total End-Use,Discrepancy,2044,8.782
+Total End-Use,Discrepancy,2045,8.8718
+Total End-Use,Discrepancy,2046,8.962
+Total End-Use,Discrepancy,2047,9.0572
+Total End-Use,Discrepancy,2048,9.1604
+Total End-Use,Discrepancy,2049,9.2483
+Total End-Use,Discrepancy,2050,9.3417
+Total End-Use,Total Energy,2010,537.4975
+Total End-Use,Total Energy,2011,553.0188
+Total End-Use,Total Energy,2012,565.996
+Total End-Use,Total Energy,2013,576.624
+Total End-Use,Total Energy,2014,582.734
+Total End-Use,Total Energy,2015,586.254
+Total End-Use,Total Energy,2016,590.9841
+Total End-Use,Total Energy,2017,609.5362
+Total End-Use,Total Energy,2018,619.9881
+Total End-Use,Total Energy,2019,626.9764
+Total End-Use,Total Energy,2020,635.0324
+Total End-Use,Total Energy,2021,641.3775
+Total End-Use,Total Energy,2022,646.8841
+Total End-Use,Total Energy,2023,652.4968
+Total End-Use,Total Energy,2024,658.548
+Total End-Use,Total Energy,2025,664.9169
+Total End-Use,Total Energy,2026,672.344
+Total End-Use,Total Energy,2027,680.3816
+Total End-Use,Total Energy,2028,688.534
+Total End-Use,Total Energy,2029,696.9733
+Total End-Use,Total Energy,2030,705.1733
+Total End-Use,Total Energy,2031,713.4769
+Total End-Use,Total Energy,2032,721.1758
+Total End-Use,Total Energy,2033,729.5619
+Total End-Use,Total Energy,2034,737.9706
+Total End-Use,Total Energy,2035,747.1564
+Total End-Use,Total Energy,2036,756.3469
+Total End-Use,Total Energy,2037,765.8232
+Total End-Use,Total Energy,2038,775.4934
+Total End-Use,Total Energy,2039,785.1092
+Total End-Use,Total Energy,2040,794.8785
+Total End-Use,Total Energy,2041,806.5858
+Total End-Use,Total Energy,2042,818.1915
+Total End-Use,Total Energy,2043,829.8997
+Total End-Use,Total Energy,2044,841.7352
+Total End-Use,Total Energy,2045,853.7039
+Total End-Use,Total Energy,2046,865.0673
+Total End-Use,Total Energy,2047,876.3677
+Total End-Use,Total Energy,2048,888.0147
+Total End-Use,Total Energy,2049,899.0377
+Total End-Use,Total Energy,2050,910.6984
+Electric Power,Liquids,2010,7.4146
+Electric Power,Liquids,2011,7.7806
+Electric Power,Liquids,2012,8.5009
+Electric Power,Liquids,2013,8.1421
+Electric Power,Liquids,2014,7.6119
+Electric Power,Liquids,2015,7.2367
+Electric Power,Liquids,2016,6.4573
+Electric Power,Liquids,2017,6.4699
+Electric Power,Liquids,2018,5.9355
+Electric Power,Liquids,2019,5.4304
+Electric Power,Liquids,2020,4.9285
+Electric Power,Liquids,2021,4.5966
+Electric Power,Liquids,2022,4.3048
+Electric Power,Liquids,2023,4.0136
+Electric Power,Liquids,2024,3.7225
+Electric Power,Liquids,2025,3.4294
+Electric Power,Liquids,2026,3.2523
+Electric Power,Liquids,2027,3.0757
+Electric Power,Liquids,2028,2.898
+Electric Power,Liquids,2029,2.7251
+Electric Power,Liquids,2030,2.5515
+Electric Power,Liquids,2031,2.4382
+Electric Power,Liquids,2032,2.327
+Electric Power,Liquids,2033,2.2169
+Electric Power,Liquids,2034,2.1065
+Electric Power,Liquids,2035,1.9967
+Electric Power,Liquids,2036,1.9186
+Electric Power,Liquids,2037,1.8405
+Electric Power,Liquids,2038,1.7608
+Electric Power,Liquids,2039,1.6827
+Electric Power,Liquids,2040,1.6049
+Electric Power,Liquids,2041,1.5794
+Electric Power,Liquids,2042,1.5537
+Electric Power,Liquids,2043,1.5284
+Electric Power,Liquids,2044,1.5032
+Electric Power,Liquids,2045,1.4777
+Electric Power,Liquids,2046,1.4739
+Electric Power,Liquids,2047,1.4702
+Electric Power,Liquids,2048,1.4666
+Electric Power,Liquids,2049,1.4624
+Electric Power,Liquids,2050,1.4587
+Electric Power,Natural Gas,2010,39.7919
+Electric Power,Natural Gas,2011,40.561
+Electric Power,Natural Gas,2012,42.4141
+Electric Power,Natural Gas,2013,41.4202
+Electric Power,Natural Gas,2014,41.6922
+Electric Power,Natural Gas,2015,43.8541
+Electric Power,Natural Gas,2016,45.3027
+Electric Power,Natural Gas,2017,46.4544
+Electric Power,Natural Gas,2018,47.3894
+Electric Power,Natural Gas,2019,47.2059
+Electric Power,Natural Gas,2020,47.3859
+Electric Power,Natural Gas,2021,47.1923
+Electric Power,Natural Gas,2022,47.1719
+Electric Power,Natural Gas,2023,46.9646
+Electric Power,Natural Gas,2024,46.6428
+Electric Power,Natural Gas,2025,46.6298
+Electric Power,Natural Gas,2026,47.1615
+Electric Power,Natural Gas,2027,47.6018
+Electric Power,Natural Gas,2028,48.0522
+Electric Power,Natural Gas,2029,48.2817
+Electric Power,Natural Gas,2030,48.5805
+Electric Power,Natural Gas,2031,49.4986
+Electric Power,Natural Gas,2032,50.6131
+Electric Power,Natural Gas,2033,51.4196
+Electric Power,Natural Gas,2034,52.2709
+Electric Power,Natural Gas,2035,53.0967
+Electric Power,Natural Gas,2036,53.8804
+Electric Power,Natural Gas,2037,54.7171
+Electric Power,Natural Gas,2038,55.4912
+Electric Power,Natural Gas,2039,56.2619
+Electric Power,Natural Gas,2040,57.1524
+Electric Power,Natural Gas,2041,57.9736
+Electric Power,Natural Gas,2042,58.9011
+Electric Power,Natural Gas,2043,59.7243
+Electric Power,Natural Gas,2044,60.6378
+Electric Power,Natural Gas,2045,61.5418
+Electric Power,Natural Gas,2046,62.1243
+Electric Power,Natural Gas,2047,62.6706
+Electric Power,Natural Gas,2048,63.337
+Electric Power,Natural Gas,2049,63.912
+Electric Power,Natural Gas,2050,64.5394
+Electric Power,Coal,2010,86.6804
+Electric Power,Coal,2011,91.9235
+Electric Power,Coal,2012,95.2187
+Electric Power,Coal,2013,97.6991
+Electric Power,Coal,2014,97.3802
+Electric Power,Coal,2015,94.149
+Electric Power,Coal,2016,91.6767
+Electric Power,Coal,2017,91.7702
+Electric Power,Coal,2018,90.8527
+Electric Power,Coal,2019,89.9196
+Electric Power,Coal,2020,88.9564
+Electric Power,Coal,2021,88.6708
+Electric Power,Coal,2022,88.6786
+Electric Power,Coal,2023,88.7914
+Electric Power,Coal,2024,88.9971
+Electric Power,Coal,2025,89.0511
+Electric Power,Coal,2026,88.8501
+Electric Power,Coal,2027,88.6717
+Electric Power,Coal,2028,88.5489
+Electric Power,Coal,2029,88.6659
+Electric Power,Coal,2030,88.6349
+Electric Power,Coal,2031,88.6045
+Electric Power,Coal,2032,88.4263
+Electric Power,Coal,2033,88.5632
+Electric Power,Coal,2034,88.5681
+Electric Power,Coal,2035,88.6826
+Electric Power,Coal,2036,88.7268
+Electric Power,Coal,2037,88.6972
+Electric Power,Coal,2038,88.7291
+Electric Power,Coal,2039,88.7629
+Electric Power,Coal,2040,88.8197
+Electric Power,Coal,2041,89.2849
+Electric Power,Coal,2042,89.7896
+Electric Power,Coal,2043,90.2793
+Electric Power,Coal,2044,90.8225
+Electric Power,Coal,2045,91.3871
+Electric Power,Coal,2046,92.5464
+Electric Power,Coal,2047,93.7337
+Electric Power,Coal,2048,94.9345
+Electric Power,Coal,2049,96.1166
+Electric Power,Coal,2050,97.3039
+Electric Power,Nuclear,2010,27.3807
+Electric Power,Nuclear,2011,26.2491
+Electric Power,Nuclear,2012,24.478
+Electric Power,Nuclear,2013,24.6535
+Electric Power,Nuclear,2014,25.1392
+Electric Power,Nuclear,2015,25.439
+Electric Power,Nuclear,2016,25.7129
+Electric Power,Nuclear,2017,27.415
+Electric Power,Nuclear,2018,27.9585
+Electric Power,Nuclear,2019,28.346
+Electric Power,Nuclear,2020,28.7235
+Electric Power,Nuclear,2021,28.8809
+Electric Power,Nuclear,2022,28.8741
+Electric Power,Nuclear,2023,28.9896
+Electric Power,Nuclear,2024,29.4051
+Electric Power,Nuclear,2025,29.5319
+Electric Power,Nuclear,2026,29.9954
+Electric Power,Nuclear,2027,30.5535
+Electric Power,Nuclear,2028,31.1116
+Electric Power,Nuclear,2029,31.6718
+Electric Power,Nuclear,2030,32.2341
+Electric Power,Nuclear,2031,32.4782
+Electric Power,Nuclear,2032,32.6066
+Electric Power,Nuclear,2033,32.8549
+Electric Power,Nuclear,2034,33.1032
+Electric Power,Nuclear,2035,33.3515
+Electric Power,Nuclear,2036,33.6454
+Electric Power,Nuclear,2037,33.9393
+Electric Power,Nuclear,2038,34.2331
+Electric Power,Nuclear,2039,34.527
+Electric Power,Nuclear,2040,34.8209
+Electric Power,Nuclear,2041,35.0769
+Electric Power,Nuclear,2042,35.3329
+Electric Power,Nuclear,2043,35.5889
+Electric Power,Nuclear,2044,35.845
+Electric Power,Nuclear,2045,36.101
+Electric Power,Nuclear,2046,36.4555
+Electric Power,Nuclear,2047,36.8099
+Electric Power,Nuclear,2048,37.1644
+Electric Power,Nuclear,2049,37.5189
+Electric Power,Nuclear,2050,37.8731
+Electric Power,Renewables,2010,41.0666
+Electric Power,Renewables,2011,42.9742
+Electric Power,Renewables,2012,45.1203
+Electric Power,Renewables,2013,48.4023
+Electric Power,Renewables,2014,50.7452
+Electric Power,Renewables,2015,51.6466
+Electric Power,Renewables,2016,54.9195
+Electric Power,Renewables,2017,66.3332
+Electric Power,Renewables,2018,71.9265
+Electric Power,Renewables,2019,77.4854
+Electric Power,Renewables,2020,83.424
+Electric Power,Renewables,2021,87.8379
+Electric Power,Renewables,2022,91.8961
+Electric Power,Renewables,2023,95.9512
+Electric Power,Renewables,2024,99.8821
+Electric Power,Renewables,2025,103.8268
+Electric Power,Renewables,2026,108.4752
+Electric Power,Renewables,2027,113.1614
+Electric Power,Renewables,2028,117.8632
+Electric Power,Renewables,2029,122.6317
+Electric Power,Renewables,2030,127.3501
+Electric Power,Renewables,2031,131.6701
+Electric Power,Renewables,2032,135.918
+Electric Power,Renewables,2033,140.1768
+Electric Power,Renewables,2034,144.5226
+Electric Power,Renewables,2035,148.8663
+Electric Power,Renewables,2036,153.4187
+Electric Power,Renewables,2037,157.9513
+Electric Power,Renewables,2038,162.5261
+Electric Power,Renewables,2039,167.1119
+Electric Power,Renewables,2040,171.5332
+Electric Power,Renewables,2041,176.8834
+Electric Power,Renewables,2042,182.0966
+Electric Power,Renewables,2043,187.444
+Electric Power,Renewables,2044,192.6806
+Electric Power,Renewables,2045,197.9198
+Electric Power,Renewables,2046,202.0866
+Electric Power,Renewables,2047,206.2902
+Electric Power,Renewables,2048,210.3512
+Electric Power,Renewables,2049,214.5345
+Electric Power,Renewables,2050,218.6639
+Electric Power,Total Electric Power Sector,2010,202.3342
+Electric Power,Total Electric Power Sector,2011,209.4885
+Electric Power,Total Electric Power Sector,2012,215.7319
+Electric Power,Total Electric Power Sector,2013,220.3173
+Electric Power,Total Electric Power Sector,2014,222.5687
+Electric Power,Total Electric Power Sector,2015,222.3254
+Electric Power,Total Electric Power Sector,2016,224.0692
+Electric Power,Total Electric Power Sector,2017,238.4428
+Electric Power,Total Electric Power Sector,2018,244.0626
+Electric Power,Total Electric Power Sector,2019,248.3873
+Electric Power,Total Electric Power Sector,2020,253.4182
+Electric Power,Total Electric Power Sector,2021,257.1785
+Electric Power,Total Electric Power Sector,2022,260.9255
+Electric Power,Total Electric Power Sector,2023,264.7104
+Electric Power,Total Electric Power Sector,2024,268.6496
+Electric Power,Total Electric Power Sector,2025,272.4689
+Electric Power,Total Electric Power Sector,2026,277.7346
+Electric Power,Total Electric Power Sector,2027,283.0642
+Electric Power,Total Electric Power Sector,2028,288.4739
+Electric Power,Total Electric Power Sector,2029,293.9762
+Electric Power,Total Electric Power Sector,2030,299.3509
+Electric Power,Total Electric Power Sector,2031,304.6897
+Electric Power,Total Electric Power Sector,2032,309.8909
+Electric Power,Total Electric Power Sector,2033,315.2313
+Electric Power,Total Electric Power Sector,2034,320.5713
+Electric Power,Total Electric Power Sector,2035,325.9939
+Electric Power,Total Electric Power Sector,2036,331.5899
+Electric Power,Total Electric Power Sector,2037,337.1453
+Electric Power,Total Electric Power Sector,2038,342.7405
+Electric Power,Total Electric Power Sector,2039,348.3464
+Electric Power,Total Electric Power Sector,2040,353.931
+Electric Power,Total Electric Power Sector,2041,360.7982
+Electric Power,Total Electric Power Sector,2042,367.6738
+Electric Power,Total Electric Power Sector,2043,374.5649
+Electric Power,Total Electric Power Sector,2044,381.489
+Electric Power,Total Electric Power Sector,2045,388.4275
+Electric Power,Total Electric Power Sector,2046,394.6867
+Electric Power,Total Electric Power Sector,2047,400.9746
+Electric Power,Total Electric Power Sector,2048,407.2537
+Electric Power,Total Electric Power Sector,2049,413.5444
+Electric Power,Total Electric Power Sector,2050,419.839
+Total Energy,Liquids,2010,177.1134
+Total Energy,Liquids,2011,178.1151
+Total Energy,Liquids,2012,180.905
+Total Energy,Liquids,2013,182.5306
+Total Energy,Liquids,2014,185.17
+Total Energy,Liquids,2015,189.236
+Total Energy,Liquids,2016,192.3045
+Total Energy,Liquids,2017,196.3772
+Total Energy,Liquids,2018,198.9067
+Total Energy,Liquids,2019,201.4107
+Total Energy,Liquids,2020,203.3438
+Total Energy,Liquids,2021,204.2479
+Total Energy,Liquids,2022,204.9958
+Total Energy,Liquids,2023,205.4973
+Total Energy,Liquids,2024,206.0977
+Total Energy,Liquids,2025,206.9262
+Total Energy,Liquids,2026,207.3929
+Total Energy,Liquids,2027,208.2029
+Total Energy,Liquids,2028,209.0014
+Total Energy,Liquids,2029,209.8059
+Total Energy,Liquids,2030,210.6537
+Total Energy,Liquids,2031,211.6128
+Total Energy,Liquids,2032,212.4554
+Total Energy,Liquids,2033,213.3034
+Total Energy,Liquids,2034,214.3079
+Total Energy,Liquids,2035,215.5909
+Total Energy,Liquids,2036,216.9236
+Total Energy,Liquids,2037,218.3636
+Total Energy,Liquids,2038,219.9364
+Total Energy,Liquids,2039,221.3475
+Total Energy,Liquids,2040,222.882
+Total Energy,Liquids,2041,224.7715
+Total Energy,Liquids,2042,226.5857
+Total Energy,Liquids,2043,228.4582
+Total Energy,Liquids,2044,230.3369
+Total Energy,Liquids,2045,232.2627
+Total Energy,Liquids,2046,234.2361
+Total Energy,Liquids,2047,236.2908
+Total Energy,Liquids,2048,238.4794
+Total Energy,Liquids,2049,240.322
+Total Energy,Liquids,2050,242.4784
+Total Energy,Natural Gas,2010,119.4739
+Total Energy,Natural Gas,2011,123.0407
+Total Energy,Natural Gas,2012,125.8031
+Total Energy,Natural Gas,2013,127.5078
+Total Energy,Natural Gas,2014,128.2341
+Total Energy,Natural Gas,2015,130.1315
+Total Energy,Natural Gas,2016,132.8652
+Total Energy,Natural Gas,2017,135.2757
+Total Energy,Natural Gas,2018,138.1902
+Total Energy,Natural Gas,2019,138.8932
+Total Energy,Natural Gas,2020,139.9052
+Total Energy,Natural Gas,2021,141.3506
+Total Energy,Natural Gas,2022,142.2871
+Total Energy,Natural Gas,2023,143.1639
+Total Energy,Natural Gas,2024,143.9712
+Total Energy,Natural Gas,2025,145.1821
+Total Energy,Natural Gas,2026,147.1665
+Total Energy,Natural Gas,2027,148.9179
+Total Energy,Natural Gas,2028,150.7007
+Total Energy,Natural Gas,2029,152.2809
+Total Energy,Natural Gas,2030,153.7743
+Total Energy,Natural Gas,2031,155.8944
+Total Energy,Natural Gas,2032,157.9705
+Total Energy,Natural Gas,2033,160.0602
+Total Energy,Natural Gas,2034,162.1918
+Total Energy,Natural Gas,2035,164.4619
+Total Energy,Natural Gas,2036,166.3872
+Total Energy,Natural Gas,2037,168.5964
+Total Energy,Natural Gas,2038,170.7634
+Total Energy,Natural Gas,2039,172.9608
+Total Energy,Natural Gas,2040,175.3318
+Total Energy,Natural Gas,2041,177.7108
+Total Energy,Natural Gas,2042,180.1777
+Total Energy,Natural Gas,2043,182.5719
+Total Energy,Natural Gas,2044,185.0794
+Total Energy,Natural Gas,2045,187.6381
+Total Energy,Natural Gas,2046,189.8404
+Total Energy,Natural Gas,2047,191.9514
+Total Energy,Natural Gas,2048,194.3152
+Total Energy,Natural Gas,2049,196.4473
+Total Energy,Natural Gas,2050,198.8813
+Total Energy,Coal,2010,155.1826
+Total Energy,Coal,2011,164.8458
+Total Energy,Coal,2012,170.9137
+Total Energy,Coal,2013,173.7897
+Total Energy,Coal,2014,173.0709
+Total Energy,Coal,2015,168.7674
+Total Energy,Coal,2016,162.595
+Total Energy,Coal,2017,161.3757
+Total Energy,Coal,2018,160.0896
+Total Energy,Coal,2019,158.1461
+Total Energy,Coal,2020,156.7278
+Total Energy,Coal,2021,155.9609
+Total Energy,Coal,2022,155.6045
+Total Energy,Coal,2023,155.5206
+Total Energy,Coal,2024,155.6111
+Total Energy,Coal,2025,155.6036
+Total Energy,Coal,2026,155.2934
+Total Energy,Coal,2027,155.2068
+Total Energy,Coal,2028,155.2005
+Total Energy,Coal,2029,155.5401
+Total Energy,Coal,2030,155.7602
+Total Energy,Coal,2031,156.0513
+Total Energy,Coal,2032,156.1351
+Total Energy,Coal,2033,156.6697
+Total Energy,Coal,2034,157.0363
+Total Energy,Coal,2035,157.655
+Total Energy,Coal,2036,158.2975
+Total Energy,Coal,2037,158.8695
+Total Energy,Coal,2038,159.5295
+Total Energy,Coal,2039,160.2701
+Total Energy,Coal,2040,161.0195
+Total Energy,Coal,2041,162.3808
+Total Energy,Coal,2042,163.7937
+Total Energy,Coal,2043,165.2394
+Total Energy,Coal,2044,166.7836
+Total Energy,Coal,2045,168.3692
+Total Energy,Coal,2046,170.5593
+Total Energy,Coal,2047,172.7098
+Total Energy,Coal,2048,174.9276
+Total Energy,Coal,2049,177.0655
+Total Energy,Coal,2050,179.2196
+Total Energy,Nuclear,2010,27.3807
+Total Energy,Nuclear,2011,26.2491
+Total Energy,Nuclear,2012,24.478
+Total Energy,Nuclear,2013,24.6535
+Total Energy,Nuclear,2014,25.1392
+Total Energy,Nuclear,2015,25.439
+Total Energy,Nuclear,2016,25.7129
+Total Energy,Nuclear,2017,27.415
+Total Energy,Nuclear,2018,27.9585
+Total Energy,Nuclear,2019,28.346
+Total Energy,Nuclear,2020,28.7235
+Total Energy,Nuclear,2021,28.8809
+Total Energy,Nuclear,2022,28.8741
+Total Energy,Nuclear,2023,28.9896
+Total Energy,Nuclear,2024,29.4051
+Total Energy,Nuclear,2025,29.5319
+Total Energy,Nuclear,2026,29.9954
+Total Energy,Nuclear,2027,30.5535
+Total Energy,Nuclear,2028,31.1116
+Total Energy,Nuclear,2029,31.6718
+Total Energy,Nuclear,2030,32.2341
+Total Energy,Nuclear,2031,32.4782
+Total Energy,Nuclear,2032,32.6066
+Total Energy,Nuclear,2033,32.8549
+Total Energy,Nuclear,2034,33.1032
+Total Energy,Nuclear,2035,33.3515
+Total Energy,Nuclear,2036,33.6454
+Total Energy,Nuclear,2037,33.9393
+Total Energy,Nuclear,2038,34.2331
+Total Energy,Nuclear,2039,34.527
+Total Energy,Nuclear,2040,34.8209
+Total Energy,Nuclear,2041,35.0769
+Total Energy,Nuclear,2042,35.3329
+Total Energy,Nuclear,2043,35.5889
+Total Energy,Nuclear,2044,35.845
+Total Energy,Nuclear,2045,36.101
+Total Energy,Nuclear,2046,36.4555
+Total Energy,Nuclear,2047,36.8099
+Total Energy,Nuclear,2048,37.1644
+Total Energy,Nuclear,2049,37.5189
+Total Energy,Nuclear,2050,37.8731
+Total Energy,Renewables,2010,58.3469
+Total Energy,Renewables,2011,60.7681
+Total Energy,Renewables,2012,63.8961
+Total Energy,Renewables,2013,68.1424
+Total Energy,Renewables,2014,71.1197
+Total Energy,Renewables,2015,72.6801
+Total Energy,Renewables,2016,77.5065
+Total Energy,Renewables,2017,89.0925
+Total Energy,Renewables,2018,94.8431
+Total Energy,Renewables,2019,100.1804
+Total Energy,Renewables,2020,106.3321
+Total Energy,Renewables,2021,110.9372
+Total Energy,Renewables,2022,115.1227
+Total Energy,Renewables,2023,119.3254
+Total Energy,Renewables,2024,123.4629
+Total Energy,Renewables,2025,127.6732
+Total Energy,Renewables,2026,132.4957
+Total Energy,Renewables,2027,137.5004
+Total Energy,Renewables,2028,142.5198
+Total Energy,Renewables,2029,147.6745
+Total Energy,Renewables,2030,152.751
+Total Energy,Renewables,2031,157.4401
+Total Energy,Renewables,2032,162.0083
+Total Energy,Renewables,2033,166.6738
+Total Energy,Renewables,2034,171.3313
+Total Energy,Renewables,2035,176.0971
+Total Energy,Renewables,2036,181.0932
+Total Energy,Renewables,2037,186.0544
+Total Energy,Renewables,2038,191.031
+Total Energy,Renewables,2039,196.0037
+Total Energy,Renewables,2040,200.8242
+Total Energy,Renewables,2041,206.6458
+Total Energy,Renewables,2042,212.3015
+Total Energy,Renewables,2043,218.0413
+Total Energy,Renewables,2044,223.6904
+Total Energy,Renewables,2045,229.3329
+Total Energy,Renewables,2046,233.9761
+Total Energy,Renewables,2047,238.6058
+Total Energy,Renewables,2048,243.1281
+Total Energy,Renewables,2049,247.6839
+Total Energy,Renewables,2050,252.246
+Total Energy,Total,2010,537.4975
+Total Energy,Total,2011,553.0188
+Total Energy,Total,2012,565.996
+Total Energy,Total,2013,576.624
+Total Energy,Total,2014,582.734
+Total Energy,Total,2015,586.254
+Total Energy,Total,2016,590.9841
+Total Energy,Total,2017,609.5362
+Total Energy,Total,2018,619.9881
+Total Energy,Total,2019,626.9764
+Total Energy,Total,2020,635.0324
+Total Energy,Total,2021,641.3775
+Total Energy,Total,2022,646.8841
+Total Energy,Total,2023,652.4968
+Total Energy,Total,2024,658.548
+Total Energy,Total,2025,664.9169
+Total Energy,Total,2026,672.344
+Total Energy,Total,2027,680.3816
+Total Energy,Total,2028,688.534
+Total Energy,Total,2029,696.9733
+Total Energy,Total,2030,705.1733
+Total Energy,Total,2031,713.4769
+Total Energy,Total,2032,721.1758
+Total Energy,Total,2033,729.5619
+Total Energy,Total,2034,737.9706
+Total Energy,Total,2035,747.1564
+Total Energy,Total,2036,756.3469
+Total Energy,Total,2037,765.8232
+Total Energy,Total,2038,775.4934
+Total Energy,Total,2039,785.1092
+Total Energy,Total,2040,794.8785
+Total Energy,Total,2041,806.5858
+Total Energy,Total,2042,818.1915
+Total Energy,Total,2043,829.8997
+Total Energy,Total,2044,841.7352
+Total Energy,Total,2045,853.7039
+Total Energy,Total,2046,865.0673
+Total Energy,Total,2047,876.3677
+Total Energy,Total,2048,888.0147
+Total Energy,Total,2049,899.0377
+Total Energy,Total,2050,910.6984
