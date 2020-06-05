@@ -1,84 +1,86 @@
+## HOW BRIGHT IS A CITY?
 
-# Gunn Number: 100,000
+[//]: # "Why is question interesting? What kind of impact? Public discourse?"
 
-## Description
+We don't often think about light as an emission, but it shouldn't be surprising
+that humans are responsible for a significant portion of nighttime luminance.
+The Fish and Wildlife Commission recognizes that light pollution can severely
+disturb the habits and habitats of local wildlife. Also, light pollution in
+urban centers is known to obscure the stars at night.
 
-relates brightness of stars to brightness of city
+[//]: # "What does the data say?"
 
-original definition of number phrased as lumens: amount of light given off
-
-candelas: amount of light that reaches you
-
-candelas per meter squared (called nits): how bright it actually appears
-
-Gunn Number given as a ratio of nits experienced by an earth observer from a
-city compared to all the stars in the sky
-
-## Estimate
-
-### Sky Brightness From Starlight
-
-average sky brightness (estimated from [national solar observatory data](../national_solar_observatory_star_magnitudes/README.md)): 23.12 mag/arcsec^2 or
-61.50 μcd/m^2
-
-conversion forumla from brightness `S` in mag/arcsec^2 to brightness `b` μcd/m^2
-dervied from
-
-Garstang, R. H. "MODEL FOR ARTIFICIAL NIGHT-SKY ILLUMINATION." *Publications of the Astronomical Society of the Pacific* 98.601 (1986): 364.
-
-Allen, C. W.1973, *Astrophysical Quantities*, 3d ed.; (London: Athlone Press): 26.
-
-![equation](https://latex.codecogs.com/gif.latex?b%20%3D%201.08864%20%5Ctimes%2010%5E%7B11%7D%20%5Ccdot%2010%5E%7B-0.4S%7D)
-
-### Brightness of City Lights
-
-brightness `b` of a city given by candelas given off by average person times
-total population of city divided by land area of city. candelas emitted to sky
-given by lumens `L` divided by angular area of sky seen by light `A`. population
-divided by land area given by population density `d` recorded [here](../../flora_fauna/2010_census_population_density/README.md)
-
-![equation](https://latex.codecogs.com/gif.latex?b%3D%5Cfrac%7BLd%7D%7BA%7D)
-
-[Wikipedia](https://en.wikipedia.org/wiki/Lumen_(unit)) gives lumen output of
-common lamps between 200 and 4000 lumens. assume 900 geometric mean.
-
-assume average person is responsible for a few lamps, say 3
-
-some lamps see little sky, some see hemisphere. assume 1/6 of a sphere (e.g.
-sky is seen through window), which is 2π/3 steradians.
-
-lumen per steradian kilometer squared = micro candela per meter squared
-
-Plugging in 3 * 900 lumens per person and 5000 people per square kilometer
-gives number 100,000 times brighter than starlight brightness calculated above.
-
-## Comparison to data
-
-Data from P. Cinzano, F. Falchi, C.D. Elvidge, The first World Atlas of the artificial night sky brightness, *Monthly Notices of the Royal Astronomical Society*, Volume 328, Issue 3, December 2001, Pages 689–707, https://doi.org/10.1046/j.1365-8711.2001.04882.x
-
-### Sky Brightness From Starlight
-
-average sky brightness is 21.6 mag/arcsec^2 or 252 μcd/m^2
-
-about 4 times brighter than estimate. this is explained by scattered sunlight
-and light emission of the air itself
-
-### Sky Brightness From City Lights
+There are many ways to measure light. The SI unit quantifying light in the
+visible spectrum is the lumen (lm), which measures the total output of a light
+source. Light is not always radiated uniformly, so the candela (cd) measures the
+distribution of luminous flux over solid angle measured in steradians (sr).
+One candela is one lumen per steradian. Finally, the preferred unit for
+brightness is cd/m², where we then divide by the source's surface area.
+Cinzano et al. produced the first atlas mapping sky brightness
+due to artificial lighting over the entire world, showing just how much local
+city lights can affect the night sky. Below is an image showing the complete
+world atlas (wherever data was available) and a zoomed-in map of just the US.
+Each color corresponds to a range of sky brightness values as follows:
+- Blue: 27.7-83.2 μcd/m²
+- Green: 83.2-252 μcd/m²
+- Yellow: 252-756 μcd/m²
+- Orange: 756-2268 μcd/m²
+- Red: 2268-6804 μcd/m²
+- White: >6804 μcd/m²
 
 ![](media/cinzano_atlas_world.jpeg)
 
 ![](media/cinzano_atlas_us.jpeg)
 
-legend in μcd/m^2:
+Notably, 252 μcd/m² was chosen as the cutoff between green and yellow because
+that was Cinzano's number for average natural sky brightness (so in all levels
+beyond green, less than half of the light coming from the sky is natural) While
+this data is illuminating, so to say, it does not answer our fundamental
+question, since these maps report the effect of a city's light emissions on
+local sky brightness, but not the brightness of the city itself. For more
+information, we look towards R. H. Garstang's 1986 paper on estimating night sky
+illumination due to local cities, which finds good agreement with data when each
+person in a city is assumed to put off about 1000 lm / 2π sr ≈ 160 cd.
+Multiplying this by the average population density of US cities
+(1,600/km²) will then give us the total luminous output of the average city
+divided by its area, which we established is exactly its brightness. Performing
+this calculating, we see that a city's brightness is 256,000 μcd/m² on average.
+Dividing this by the average natural sky brightness, we see that on average,
+**a city is about 1,000 times brighter than all the night sky.**
 
-- blue: 27.7-83.2
+[//]: # "Use estimates to validate data"
 
-- green: 83.2-252
+Now that we have numbers, let's give them a sanity check to see how realistic
+this all is. We'll start by estimating the average sky brightness due to all the
+stars in the sky. The National Solar Observatory provides data on how many stars
+there are in each apparent magnitude class. The apparent magnitude scale is
+exponential, so we must convert these magnitudes into linear factors before
+we add them up. After totaling them up and averaging over the entire sky, we get
+a surface brightness of 23.12 mag/arcsec². To convert this to the units we've
+been using, we need to establish a scale factor for the brightness of a star.
+Using data from C. W. Allen's 1973 textbook "Astrophysical Quantities", we can
+derive the following conversion formula from mag/arcsec² to μcd/m²:
 
-- yellow: 252-756
+![equation](https://latex.codecogs.com/gif.latex?b%20%3D%201.08864%20%5Ctimes%2010%5E%7B11%7D%20%5Ccdot%2010%5E%7B-0.4S%7D)
 
-- orange: 756-2268
+Applying this to our quantity above tells us that the average brightness of the
+sky due to every star visible from the Earth is 61.50 μcd/m², which is only a
+factor of 4 off from Cinzano's number, which includes other light sources like
+airglow.
 
-- red: 2268-6804
+As for Garstang's per-person luminance numbers, a quick look over various lamps
+available for sale shows that luminous output ranges between 200-4,000 lm per
+lamp. Taking the geometric mean of 900 lm and letting this light spread
+uniformly over angles gives us an estimate of 70 cd per lamp. Assuming that each
+person in a city own only a few lamps gives us numbers well in agreement with
+Garstang's parametric fit.
 
-- white: >6804
+[//]: # "Final thoughts on impact"
+
+As human settlements cover an increasingly large portion of the Earth's surface,
+a truly dark night sky becomes increasingly more rare. Cinzano calculates that
+artificial sky brightness already exceeds natural sky brightness for 43% of the
+Earth's population. The precise effects of this are still under debate, and the
+study of light pollution is still a very young science, but for those living in
+densely populated cities, the impact of human presence is readily apparent: you
+just have to look up.
