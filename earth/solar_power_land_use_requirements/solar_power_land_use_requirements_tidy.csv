@@ -1,0 +1,8 @@
+﻿Type,Size,Number,Land use requirements (acres/GWh/yr),Average packing factor,Power density (J/m^2/yr)
+PV Fixed,Small,52,3.2,0.47,5.91E+08
+PV 1-axis,Small,55,2.9,0.34,9.02E+08
+PV 2-axis flat panel,Small,4,4.1,0.25,8.68E+08
+PV 2-axis CPV,Small,4,2.3,0.25,1.55E+09
+PV Fixed,Large,14,2.8,0.47,6.76E+08
+PV 1-axis,Large,16,3.5,0.34,7.48E+08
+PV 2-axis CPV,Large,2,2,0.25,1.78E+09
