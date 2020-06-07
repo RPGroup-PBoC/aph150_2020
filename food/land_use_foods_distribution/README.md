@@ -9,9 +9,7 @@ land use measured in meters squared (m^2) per kilogram
 (represented are the 5th percentile, 10th percentile, mean, median, 90th percentile and 95th percentile).
 
 ## Key Numbers
-If there are certain key numbers from this data, provide them as a simple list
-here. If not, explain why a key number is not a relevant quantity from this
-data set. 
+This data is related to the Agriculture number, which is the ratio of land use/1000 kcal of beef with land use/1000 kcal of corn. However this data looks at land use in terms of weight instead of energy.
 
 ## Source Information
 
@@ -32,4 +30,5 @@ resulting in 570 suitable studies with a median reference year of 2010.
 The data set covers ~38,700 commercially viable farms in 119 countries and 40 products
 representing ~90% of global protein and calorie consumption'.
 
-![](media/figure_file_name.png) 
+![](media/DistributionLandUse_Part1.png)
+![](media/DistributionLandUse_Part2.png) 
