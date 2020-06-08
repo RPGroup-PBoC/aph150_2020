@@ -21,10 +21,10 @@ https://ourworldindata.org/grapher/land-use-protein-poore
 ## Notes 
 The data represent the global average land use of food products.
 It is important to keep in mind that variation around the average is significant
-(For this reason the dataset ‘land_use_foods_distribution’ was added to the ‘food’ directory).
+(For this reason the dataset `land_use_foods_distribution` was added to the `food/` directory).
 
 The data is the result of an extensive meta-analysis of food system impact studies published in Science magazine
-(Poore & Nemecek, 2018: https://science.sciencemag.org/content/360/6392/987).
+([Poore & Nemecek, 2018](https://science.sciencemag.org/content/360/6392/987)).
 Science magazine is a PRO-SCIENCE source and it’s factual reporting is labeled
 VERY HIGH which increases the credibility of the data.
 
