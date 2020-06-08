@@ -2,7 +2,7 @@
 
 ## Description 
 This data describes the global average land use of various foods in their production.
-The 4 columns show the food type and land use measured in meters squared (m^2) per kilogram, 
+The 4 columns show the food type and land use measured in meters squared (m<sup>2</sup>) per kilogram, 
 per 1000 kilocalories, and  per 100 grams of protein respectively.
 
 ## Key Numbers
@@ -42,4 +42,6 @@ To provide footprints for all products Our World in Data have filled these gaps 
 footprints per nutritional unit using food composition factors from the FAO INFOODS International 
 Database and Food Balance Sheets
 
-![](media/figure_file_name.png) 
+![](media/land-use-per-kg-poore.png)
+![](media/land-use-kcal-poore.png)
+![](media/land-use-protein-poore.png) 
