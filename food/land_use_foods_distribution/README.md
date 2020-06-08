@@ -9,7 +9,7 @@ land use measured in meters squared (m^2) per kilogram
 (represented are the 5th percentile, 10th percentile, mean, median, 90th percentile and 95th percentile).
 
 ## Key Numbers
-This data is related to the Agriculture number, which is the ratio of land use/1000 kcal of beef with land use/1000 kcal of corn. However this data looks at land use in terms of weight instead of energy.
+This data is related to the Agriculture number, which is the ratio of land use/1000 kcal of beef with land use/1000 kcal of corn (=170). However, the data in this folder looks at land use **distribution** in terms of **weight** instead of **energy**. The data folder `land_use_foods_weight,energy,protein/`contains land use **averages** in terms of weight, **energy** and protein.
 
 ## Source Information
 
